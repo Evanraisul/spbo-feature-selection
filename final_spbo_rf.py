@@ -119,6 +119,66 @@ def update_random_student(population, dim, type_idx, min_values, max_values, tar
     return n_p[type_idx,:]
 
 
+# Levy flight generator using Mantegna's algorithm
+def levy_flight(dim, beta=1.5):
+    # Mantegna's algorithm
+    from math import gamma, sin, pi
+    sigma_u = (gamma(1 + beta) * sin(pi * beta / 2) /
+               (gamma((1 + beta) / 2) * beta * 2 ** ((beta - 1) / 2))) ** (1 / beta)
+    u = np.random.normal(0, sigma_u, size=dim)
+    v = np.random.normal(0, 1, size=dim)
+    step = u / (np.abs(v) ** (1.0 / beta))
+    return step
+
+
+# Epsilon-greedy + Levy-enhanced average student update
+def update_average_student_epsilon(population, dim, type_idx, min_values, max_values, eps=0.1, levy_beta=1.5, A=1.0, Pthreshold=0.6, target_function = target_function):
+    n_p = np.copy(population)
+
+    for i in type_idx:
+        for j in range(0, dim):
+            if random.random() < eps:
+                # exploration: with Levy flight sometimes, otherwise random spread
+                Plevy = random.random()
+                if Plevy >= Pthreshold:
+                    step = levy_flight(1, levy_beta)[0]
+                    n_p[i, j] = np.clip(n_p[i, j] + A * step, min_values[0,j], max_values[0,j])
+                else:
+                    r1 = random.random()
+                    n_p[i, j] = np.clip(np.min(population[:, j]) + r1*(np.max(population[:, j]) - np.min(population[:, j])), min_values[0,j], max_values[0,j])
+            else:
+                # exploitation: move towards mean of group (existing behavior)
+                r1 = random.random()
+                n_p[i, j] = np.clip(population[i, j] + r1*(np.mean(population[type_idx, j]) - population[i, j]), min_values[0,j], max_values[0,j])
+
+        n_p[i,-1] = target_function(n_p[0,0:n_p.shape[1]-1])
+
+    return n_p[type_idx,:]
+
+
+# Epsilon-greedy + Levy-enhanced random student update
+def update_random_student_epsilon(population, dim, type_idx, min_values, max_values, eps=0.1, levy_beta=1.5, A=1.0, Pthreshold=0.6, target_function = target_function):
+    n_p = np.copy(population)
+
+    for i in type_idx:
+        for j in range(0, dim):
+            if random.random() < eps:
+                Plevy = random.random()
+                if Plevy >= Pthreshold:
+                    step = levy_flight(1, levy_beta)[0]
+                    n_p[i, j] = np.clip(n_p[i, j] + A * step, min_values[0,j], max_values[0,j])
+                else:
+                    r1 = random.random()
+                    n_p[i, j] = np.clip(np.min(population[:, j]) + r1*(np.max(population[:, j]) - np.min(population[:, j])), min_values[0,j], max_values[0,j])
+            else:
+                r1 = random.random()
+                n_p[i, j] = np.clip(np.min(population[:, j]) + r1*(np.max(population[:, j]) - np.min(population[:, j])), min_values[0,j], max_values[0,j])
+
+        n_p[i,-1] = target_function(n_p[0,0:n_p.shape[1]-1])
+
+    return n_p[type_idx,:]
+
+
 # Function: Segments
 def segments(population):
     
@@ -291,8 +351,14 @@ def jfs(xtrain, ytrain, opts):
         best_student   = update_best_student(population, dim, best_student, min_values, max_values, target_function)
         population_1   = update_good_student_a(population, dim, best_student, ga, min_values, max_values, target_function)
         population_2   = update_good_student_b(population, dim, best_student, gb, min_values, max_values, target_function)
-        population_3   = update_average_student(population, dim, av, min_values, max_values, target_function)
-        population_4   = update_random_student(population, dim, rd, min_values, max_values, target_function)
+        # epsilon-greedy and Levy flight parameters (defaults when not provided in opts)
+        eps = opts.get('eps', 0.1)
+        levy_beta = opts.get('levy_beta', 1.5)
+        levy_A = opts.get('levy_A', 1.0)
+        Pthreshold = opts.get('Pthreshold', 0.6)
+
+        population_3   = update_average_student_epsilon(population, dim, av, min_values, max_values, eps, levy_beta, levy_A, Pthreshold, target_function)
+        population_4   = update_random_student_epsilon(population, dim, rd, min_values, max_values, eps, levy_beta, levy_A, Pthreshold, target_function)
         
         population     = np.vstack([population, population_1, population_2, population_3, population_4])
         population     = population[population[:, -1].argsort()]

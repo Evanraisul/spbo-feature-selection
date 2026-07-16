@@ -36,7 +36,7 @@ fold = {'xt':xtrain, 'yt':ytrain, 'xv':xtest, 'yv':ytest}
 x_train=feat
 y_train=label
 
-mdl       = RandomForestClassifier(n_estimators=10, random_state=42)
+mdl       = RandomForestClassifier(n_estimators=20, random_state=42)
 mdl.fit(x_train, y_train)
 
 
