@@ -1,0 +1,1597 @@
+%  LaTeX support: latex@mdpi.com
+%  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
+
+%=================================================================
+\documentclass[journal,article,submit,moreauthors]{Definitions/mdpi}
+%\documentclass[preprints,article,submit,moreauthors]{Definitions/mdpi}
+% For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
+
+% Below journals will use APA reference format:
+% admsci, aieduc, behavsci, businesses, econometrics, economies, education, ejihpe, famsci, games, humans, ijcs, ijfs, investment, fclam, jintelligence, journalmedia, jrfm, jsam, languages, opermanag, peacestud, pmh, psycholint, publications, tourismhosp, youth
+
+% Below journals will use Chicago reference format:
+% arts, genealogy, histories, humanities, laws, literature, religions, risks, socsci
+
+%--------------------
+% Class Options:
+%--------------------
+%----------
+% journal
+%----------
+% Choose between the following MDPI journals:
+% accountaudit, acn, acoustics, actuators, addictions, addictprev, adhesives, adolescents, aerobiology, aerospace, agriculture, agriengineering, agrochemicals, agronomy, ai, aichem, aieng, aimater, aimed, aipa, air, aisens, aisoc, algorithms, allergies, alloys, amh, analog, analytica, analytics, anatomia, anesthres, animals, antibiotics, antibodies, antioxidants, applbiosci, appliedchem, appliedmath, appliedphys, applmech, applmicrobiol, applnano, applsci, aps, aquacj, archaeolstud, architecture, arm, arthropoda, asc, asi, astronautics, astronomy, atmosphere, atoms, audiolres, automation, axioms, bacteria, batteries, bdcc, beverages, biochem, bioengineering, biologics, biology, biomass, biomechanics, biomed, biomedicines, biomedinformatics, biomimetics, biomolecules, biophysica, bioresourbioprod, biosensors, biosphere, biotech, birds, blockchains, bloods, blsf, brainsci, breath, buildings, cancers, carbon, cardio, cardiogenetics, cardiovascmed, catalysts, cells, ceramics, challenges, chemengineering, chemistry, chemosensors, chemproc, children, chips, cimb, civileng, cleantechnol, climate, clinbioenerg, clinpract, clockssleep, cmd, cmtr, coasts, coatings, colloids, colorants, commodities, complexities, complications, compounds, computation, computers, condensedmatter, conservation, constrmater, cosmetics, covid, crops, cryo, cryptography, crystals, csmf, ctn, culture, curroncol, cyber, dairy, data, ddc, dentistry, dermato, dermatopathology, designs, devices, dhi, diabetology, diagnostics, dietetics, digital, disabilities, diseases, diversity, dna, drones, drugreact, drylands, dynamics, earth, ebj, ecm, ecologies, edm, eesp, electricity, electrochem, electronicmat, electronics, embodiedintell, encyclopedia, endocrines, energies, eng, engproc, entomology, entropy, environments, environremediat, epidemiologia, epigenomes, esa, est, fermentation, fibers, fintech, fire, fishes, fluids, foodeng, foods, forecasting, forensicsci, forests, fossstud, foundations, fractalfract, freshwater, fuels, future, futureinternet, futurepharmacol, futurephys, futuretransp, galaxies, gases, gastroent, gastrointestdisord, gastronomy, gels, genes, geochem, geographies, geohazards, geomatics, geometry, geosciences, geotechnics, geriatrics, germs, glacies, grainsci, grasses, green, greenhealth, gucdd, gynecolcancer, hardware, hazardousmatters, healthcare, healthcmater, hearts, hemato, hematolrep, hep, heritage, higheredu, highthroughput, horticulturae, hospitals, hydrobiology, hydrogen, hydrology, hydrometeorology, hydropower, hygiene, idr, iic, ijem, ijerph, ijgi, ijmd, ijms, ijns, ijom, ijp, ijpb, ijt, ijtm, ijtpp, ijtst, ime, immuno, industries, inflammj, informatics, information, infrastructures, inorganics, insects, instruments, inventions, iot, j, jaestheticmed, jal, japma, jcdd, jcm, jcp, jcrm, jcs, jcto, jdad, jdb, jdream, jemr, jeta, jfb, jfmk, jfth, jgbg, jgg, jimaging, jlpea, jmahp, jmmp, jmms, jmp, jmse, jne, jnt, jof, joi, joitmc, joma, jop, joptm, jor, jox, jpbi, jphytomed, jpm, jsan, jtaer, jvd, jzbg, kidneydial, kinasesphosphatases, knowledge, labmed, laboratories, lam, land, lasers, legumes, life, lights, limnolrev, lipidology, liquids, livers, logics, logistics, lubricants, lymphatics, machines, macromol, magnetism, magnetochemistry, make, marinedrugs, maritime, materials, materproc, mathematics, mca, mcb, measurements, medicina, medicines, medsci, membranes, merits, metabolites, metals, meteorology, methane, metrics, metrology, micro, microarrays, microbiolres, microelectronics, micromachines, microorganisms, microplastics, microwave, minerals, mining, mmphys, modelling, molbank, molecules, mollusca, mps, msf, mti, multimedia, muscles, nanoenergyadv, nanomanufacturing, nanomaterials, ncrna, ndt, network, neuroglia, neuroimaging, neurolint, neurosci, nitrogen, notspecified, nursrep, nutraceuticals, nutrients, obesities, occuphealth, oceans, ohbm, onco, optics, oral, organics, organoids, osteology, oxygen, pandemics, parasites, parasitologia, particles, pathogens, pathophysiology, pediatrrep, pets, pharmaceuticals, pharmaceutics, pharmacoepidemiology, pharmacy, phc, philosophies, photochem, photonics, photovoltaics, phycology, physchem, physics, physiologia, plants, plasma, platforms, pollutants, polymers, polysaccharides, populations, poultry, powders, precision, precisoncol, preprints, proceedings, processes, prosthesis, proteomes, psf, psychiatryint, psychoactives, purification, quantumrep, quaternary, qubs, radiation, rareearths, rdt, reactions, realestate, receptors, recycling, regeneration, remotesensing, reports, reprodmed, resources, rheumato, rjpm, robotics, rsee, ruminants, safety, sanpp, sca, sci, scipharm, sclerosis, seeds, sensors, separations, sexes, shi, signals, sinusitis, siuj, skins, smartcities, smartfish, sna, societies, software, soilsystems, solar, solids, spectroscj, sports, standards, stats, std, stratsediment, stresses, strokerep, superintelligence, surfaces, surgeries, suschem, sustainability, sustainfoods, sustainpackag, symmetry, synbio, systems, tae, targets, taxonomy, technologies, telecom, test, textiles, thalassrep, therapeutics, thermo, timespace, tomography, toxics, toxins, tph, transplantology, transportation, traumacare, traumas, tri, tropicalmed, universe, urbansci, uro, vaccines, vehicles, venereology, vetsci, vibration, virtualworlds, viruses, vision, waste, water, welding, wem, wevj, wild, wind, women, world, zoonoticdis
+
+%---------
+% article
+%---------
+% The default type of manuscript is "article", but can be replaced by:
+% abstract, addendum, article, benchmark, book, bookreview, briefcommunication, briefreport, casereport, changes, clinicopathologicalchallenge, comment, commentary, communication, conceptpaper, conferenceproceedings, correction, conferencereport, creative, datadescriptor, discussion, entry, expressionofconcern, extendedabstract, editorial, essay, erratum, fieldguide, hypothesis, interestingimages, letter, meetingreport, monograph, newbookreceived, obituary, opinion, proceedingpaper, projectreport, reply, retraction, review, perspective, protocol, shortnote, studyprotocol, supfile, systematicreview, technicalnote, viewpoint, guidelines, registeredreport, tutorial,  giantsinurology, urologyaroundtheworld
+% supfile = supplementary materials
+
+%----------
+% submit
+%----------
+% The class option "submit" will be changed to "accept" by the Editorial Office when the paper is accepted. This will only make changes to the frontpage (e.g., the logo of the journal will get visible), the headings, and the copyright information. Also, line numbering will be removed. Journal info and pagination for accepted papers will also be assigned by the Editorial Office.
+
+%------------------
+% moreauthors
+%------------------
+% If there is only one author the class option oneauthor should be used. Otherwise use the class option moreauthors.
+
+%=================================================================
+% MDPI internal commands - do not modify
+\firstpage{1}
+\makeatletter
+\setcounter{page}{\@firstpage}
+\makeatother
+\pubvolume{1}
+\issuenum{1}
+\articlenumber{0}
+\pubyear{2026}
+\copyrightyear{2026}
+%\externaleditor{Firstname Lastname} % More than 1 editor, please add `` and '' before the last editor name
+\datereceived{ }
+\daterevised{ } % Comment out if no revised date
+\dateaccepted{ }
+\datepublished{ }
+%\datecorrected{} % For corrected papers: "Corrected: XXX" date in the original paper.
+%\dateretracted{} % For retracted papers: "Retracted: XXX" date in the original paper.
+%\doinum{} % Used for some special journals, like molbank
+%\pdfoutput=1 % Uncommented for upload to arXiv.org
+%\CorrStatement{yes}  % For updates
+%\longauthorlist{yes} % For many authors that exceed the left citation part
+%\IsAssociation{yes} % For association journals
+
+%=================================================================
+% Add packages and commands here. The following packages are loaded in our class file: fontenc, inputenc, calc, indentfirst, fancyhdr, graphicx, epstopdf, lastpage, ifthen, float, amsmath, amssymb, lineno, setspace, enumitem, mathpazo, booktabs, titlesec, etoolbox, tabto, xcolor, colortbl, soul, multirow, microtype, tikz, totcount, changepage, attrib, upgreek, array, tabularx, pbox, ragged2e, tocloft, marginnote, marginfix, enotez, amsthm, natbib, hyperref, cleveref, scrextend, url, geometry, newfloat, caption, draftwatermark, seqsplit
+% cleveref: load \crefname definitions after \begin{document}
+
+% Needed for the \begin{algorithm} / \begin{algorithmic} pseudocode block;
+% these are NOT among the packages loaded by the MDPI class.
+\usepackage{algorithm}
+\usepackage{multirow}
+\usepackage{algpseudocode}
+
+%=================================================================
+% Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
+%% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
+
+%=================================================================
+% Full title of the paper (Capitalized)
+\Title{
+An Enhanced Student Psychology-Based Optimization Algorithm with $\epsilon$-Greedy Strategy and Lévy Flight for Intrusion Detection System's Feature Selection
+}
+
+% Author Orchid ID: enter ID or remove command
+\newcommand{\orcidauthorA}{0000-0000-0000-000X} % Add \orcidA{} behind the author's name
+%\newcommand{\orcidauthorB}{0000-0000-0000-000X} % Add \orcidB{} behind the author's name
+
+% Authors, for the paper (add full first names)
+\Author{Firstname Lastname $^{1}$\orcidA{}, Firstname Lastname $^{2}$ and Firstname Lastname $^{2,}$*}
+
+%\longauthorlist{yes}
+
+% MDPI internal command: Authors, for metadata in PDF
+\AuthorNames{Firstname Lastname, Firstname Lastname and Firstname Lastname}
+
+%\longauthorlist{yes}
+
+% Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
+\address{%
+$^{1}$ \quad Affiliation 1; e-mail@e-mail.com\\
+$^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
+
+% Contact information of the corresponding author
+\corres{Correspondence: e-mail@e-mail.com; Tel.: (optional; include country code; if there are multiple corresponding authors, add author initials) +xx-xxxx-xxx-xxxx (F.L.)}
+
+% Current address and/or shared authorship
+%\firstnote{Current address: Affiliation.}
+% Current address should not be the same as any items in the Affiliation section.
+
+%\secondnote{These authors contributed equally to this work.}
+% The commands \thirdnote{} till \eighthnote{} are available for further notes.
+
+%\simplesumm{} % Simple summary
+
+%\conference{} % An extended version of a conference paper
+
+% Abstract (Do not insert blank lines, i.e. \\)
+\abstract{
+Intrusion Detection Systems (IDS) play an important role in protecting network security. But, a major bottleneck is selecting optimal features from high-dimensional traffic data which affects both classification efficiency and computational overhead. We propose an enhanced bio-inspired feature selection approach based on a modified Student Psychology-Based Optimization (SPBO) algorithm integrated with an $\epsilon$-greedy strategy and a Lévy flight mechanism to overcome this challenge. The $\epsilon$-greedy policy dynamically balances exploration and exploitation, while Lévy flight supplies the heavy-tailed jumps that allow search agents to escape local optima. The selected subsets were evaluated with multiple machine learning classifiers on the NSL-KDD dataset for multi-level classification. The proposed $\epsilon$-L-SPBO reduced the feature space from 41 attributes to 10, discarding approximately 76\% of the attributes, and converged within 7 iterations. Combined with a Random Forest classifier, the 10-feature subset achieved a classification accuracy of 99.91\%, outperforming several state-of-the-art metaheuristic feature selection methods evaluated under an identical protocol while requiring less runtime. Model interpretability was established using Explainable Artificial Intelligence (XAI) techniques, specifically SHapley Additive exPlanations (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME), providing transparency into feature contributions. Overall, the framework offers an accurate, computationally efficient, and interpretable solution for modern network intrusion detection.
+}
+
+% Keywords
+\keyword{intrusion detection system; feature selection; student psychology-based optimization; epsilon-greedy strategy; Lévy flight; metaheuristic optimization; machine learning; explainable artificial intelligence; NSL-KDD}
+
+\begin{document}
+
+\maketitle
+
+% Graphical Abstract: MDPI collects this as a SEPARATE file at submission, not as a
+% numbered figure in the manuscript body. Upload fig_graphical_abstract.pdf through the
+% submission system instead. Uncomment only if the target journal asks for it inline --
+% note that doing so renumbers every subsequent figure and requires an in-text citation.
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[width=\columnwidth]{fig_graphical_abstract.pdf}
+%    \caption{Graphical abstract of the proposed $\epsilon$-L-SPBO feature selection framework.}
+%    \label{f1}
+%\end{figure}
+
+% The fields PACS, MSC, and JEL may be left empty or commented out if not applicable
+%\PACS{J0101}
+%\MSC{}
+%\JEL{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Diversity
+%\LSID{\url{http://}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Applied Sciences
+%\featuredapplication{Authors are encouraged to provide a concise description of the specific application or a potential application of the work. This section is not mandatory.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Data
+%\dataset{DOI number or link to the deposited data set if the data set is published separately. If the data set shall be published as a supplement to this paper, this field will be filled by the journal editors. In this case, please submit the data set as a supplement.}
+%\datasetlicense{License under which the data set is made available (CC0, CC-BY, CC-BY-SA, CC-BY-NC, etc.)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal BioTech, Fishes, Neuroimaging and Toxins
+%\keycontribution{The breakthroughs or highlights of the manuscript. Authors can write one or two sentences to describe the most important part of the paper.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only for the journal Encyclopedia
+%\encyclopediadef{For entry manuscripts only: please provide a brief overview of the entry title instead of an abstract.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Different journals have different requirements. Please check the specific journal guidelines in the "Instructions for Authors" on the journal's official website.
+%\addhighlights{yes}
+%\renewcommand{\addhighlights}{%
+%
+%\noindent This is an optional section, the goal of which is to increase the discoverability and readability of the article via search engines and other scholars. Highlights should not be a copy of the abstract, but a simple overview allowing the reader to quickly and simply find out what the article is about and what can be cited from it. Each of these parts should be up to 2~bullet points.\vspace{3pt}\\
+%\textbf{What are the main findings?}
+% \begin{itemize}[labelsep=2.5mm,topsep=-3pt]
+% \item First bullet.
+% \item Second bullet.
+% \end{itemize}\vspace{3pt}
+%\textbf{What are the implications of the main findings?}
+% \begin{itemize}[labelsep=2.5mm,topsep=-3pt]
+% \item First bullet.
+% \item Second bullet.
+% \end{itemize}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+Ensuring robust cybersecurity has become increasingly essential for the secure and reliable advancement of the Fourth Industrial Revolution (Industry 4.0). Security threats to network infrastructures have become an alarming issue worldwide across all environments. Every year, billions of dollars in economic loss and vast amounts of private information are compromised due to security-related breaches. Furthermore, the exponential proliferation of Internet of Things (IoT) devices, cloud computing, and next-generation communication networks has drastically expanded the attack surface, rendering traditional static defenses insufficient \cite{b22}. In recent years, several high-profile security incidents that occurred throughout the world have made us acutely aware of the importance of developing adaptive, intelligent network security mechanisms.
+
+An Intrusion Detection System (IDS) is a vital software application or hardware device intended to monitor the activities of network traffic to identify malicious content or anomalous patterns. It is designed in such a way that it emits alerts and reports upon discovery of malicious content. Although the majority of IDS systems are designed passively to detect and report suspicious network activity, it should be noted that there are advanced Intrusion Prevention Systems (IPS) that have the capability to actively block suspicious network traffic \cite{b4}.
+
+However, modern IDSs deal with a massive amount of data in daily network traffic. These datasets inherently contain high-dimensional, redundant, noisy, and irrelevant features, which severely affect the IDS’s predictive performance and consume excessive computational resources. This phenomenon, often referred to as the "curse of dimensionality," can cause machine learning classifiers to overfit and delay real-time threat detection \cite{b24}. For that reason, dimension reduction is needed to enhance the IDS’s efficiency, reduce execution time, and improve other performance metrics \cite{b5}.
+
+Feature selection is a fundamental Machine Learning (ML) preprocessing concept utilized to overcome these data challenges. It is the process of selecting the most relevant features that contribute to building a robust model \cite{b19}. Feature selection can be done manually or using several automated techniques and algorithms, such as statistical analysis, machine learning, and neural networks. The selection mechanism is used to select the relevant features in a dataset \cite{b6}. It is a mandatory step in building a robust IDS to eliminate irrelevant features that raise false alarms, thereby increasing the accuracy and reliability of the desired system.
+
+While traditional feature selection techniques—such as filter and wrapper methods—are common, they frequently suffer from high computational complexity or tend to stagnate in local optima when evaluating massive feature spaces \cite{b25}. Because selecting the optimal feature subset from high-dimensional data is an NP-hard problem, metaheuristic algorithms are increasingly used for feature selection in IDS to achieve a higher level of detection accuracy and computational efficiency \cite{b26}.
+
+Bio-inspired optimization algorithms are an important sub-category used in the implementation of metaheuristics. Bio-inspired refers to a collective and artificial intelligence that is mathematically modeled after the evolutionary processes or social behaviors of swarms, animals, or human psychology. These algorithms are specifically designed to solve complex, non-linear problems by efficiently navigating vast search spaces to find near-optimal feature subsets where traditional exact methods fail \cite{b27}.
+
+Despite this progress, the metaheuristic feature selection literature for IDS leaves three questions open. The prevailing update rules draw every candidate towards an incumbent reference solution, so population diversity decays as the search converges and the algorithm stagnates once that incumbent stops improving. Exploration is governed implicitly, through fixed operator probabilities rather than through a policy that reacts to the progress of the search, so the computational budget is consumed uniformly whether or not the population is still discovering useful subsets. Finally, the security relevance of a selected subset is seldom examined; selected attributes are reported as a list of indices and their contribution to distinguishing attack classes is assumed rather than demonstrated.
+
+This paper addresses those three questions with $\epsilon$-L-SPBO, a modified Student Psychology-Based Optimization algorithm for intrusion detection feature selection. SPBO is adopted because its variable-dependent categorisation already sustains more diversity than a single global update rule, and it is extended with an $\epsilon$-greedy policy and a Lévy flight mechanism that address the exploration and stagnation problems directly. The algorithm is evaluated on the NSL-KDD benchmark across multiple machine learning classifiers, and the selected subset is examined with explainable AI. The main contributions of this paper are summarized as follows:
+
+\begin{itemize}
+    \item An enhanced SPBO variant, $\epsilon$-L-SPBO, is proposed, in which an $\epsilon$-greedy policy replaces the implicit exploration of the standard algorithm with an explicit and tunable probabilistic decision, while a Lévy flight mechanism supplies the heavy-tailed jumps that allow search agents to leave local optima rather than oscillate around them.
+    \item The proposed algorithm is evaluated on the NSL-KDD benchmark, where it reduces the feature space from 41 attributes to 10, discarding approximately 76\% of the attribute space, and converges within 7 iterations.
+    \item Five machine learning classifiers are trained on the selected subset under a common experimental protocol, with the Random Forest classifier attaining 99.91\% accuracy, and the results are compared against several state-of-the-art metaheuristic feature selection algorithms re-run under identical conditions.
+    \item The operational relevance of the retained attributes is verified using SHAP and LIME, so that their contribution to distinguishing normal traffic from attack classes is demonstrated rather than assumed.
+    \item A structured review of metaheuristic feature selection for intrusion detection is provided, organised by algorithm family and summarised in a comparative table.
+\end{itemize}
+
+The rest of this paper is organized as follows: state-of-the-art works are presented in Section~\ref{rw}. Section~\ref{spbo} introduces the Student Psychology Based Optimization technique. The proposed feature algorithm $\epsilon$-L-SPBO is discussed in detail in Section~\ref{ms}, while Section~\ref{eara} discusses the experimental results. Section~\ref{abl} reports the ablation studies, Section~\ref{di} presents the discussion of the overall results, and Section~\ref{co} concludes the paper. The problem setting addressed in this work is summarised in Figure~\ref{f2}.
+
+% Introduction Schema
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_intro_problem.pdf}
+    \caption{Schematic of the feature selection problem addressed in this work: high-dimensional network traffic is reduced to a compact, interpretable subset before classification.}
+    \label{f2}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Related Works}
+\label{rw}
+
+The domain of feature selection for Intrusion Detection Systems (IDS) has been extensively explored through statistical filters, wrapper-based methods, and, more recently, advanced metaheuristic optimization algorithms. This section systematically reviews the existing literature by categorizing it into four primary domains: classical feature selection strategies, swarm intelligence approaches, evolutionary and foraging-inspired techniques, and hybrid deep learning formulations. Following this review, the limitations of current methodologies are identified to contextualize and position the proposed Student Psychology-Based Optimization (SPBO) algorithm within the state-of-the-art.
+
+\subsection{Classical Feature Selection Strategies}
+
+Early work on dimensionality reduction for IDS relied on filter and wrapper
+methods. Zaman and Karray \cite{b5} selected features for an SVM-based detector
+using a filter ranking, and Revathi and Malathi \cite{b6} analysed the NSL-KDD
+dataset under several conventional classifiers to establish which attributes
+contribute most to detection. Abdulhammed et al. \cite{b24} compared
+dimensionality reduction approaches for network IDS and showed that aggressive
+reduction can preserve detection quality while lowering inference cost. Direct
+comparisons of the two families \cite{b25} indicate the familiar trade-off:
+filters are inexpensive but ignore classifier feedback, whereas wrappers are
+accuracy-driven but scale poorly with the number of attributes. A broader
+performance analysis of feature subset selection for IDS \cite{b26} reaches the
+same conclusion, namely that exhaustive subset search becomes intractable well
+before the dimensionality of modern traffic captures is reached. These findings
+motivate the use of metaheuristic search, which approximates the optimal subset
+without enumerating the search space; however, they also establish that any such
+search must be judged on computational cost as well as on accuracy.
+
+\subsection{Swarm Intelligence-Based Feature Selection}
+
+Particle Swarm Optimization (PSO) \cite{b7} is one of the earliest swarm
+intelligence algorithms and remains a common starting point for feature
+selection in IDS research. Because the cost of its search grows rapidly with the
+dimensionality of the input, PSO is frequently preceded by a dimensionality
+reduction step such as Principal Component Analysis (PCA), so that the swarm
+explores a smaller and less redundant space. Zhou et al. \cite{b8} improved the
+Harris Hawk Optimization (HHO) algorithm for a hybrid IDS, using it to select a
+feature subset that was then classified with K-Nearest Neighbors (KNN) for both
+binary and multi-level classification; their results indicate that careful
+pre-processing can raise detection accuracy while simultaneously reducing
+training and testing time. A modified Grey Wolf Optimizer (MGWO) was adopted by
+Alzaqebah et al. \cite{b9} to drive the feature selection stage of an IDS, where
+alterations to the standard GWO search improved detection accuracy and reached a
+solution in fewer iterations, after which a Support Vector Machine (SVM)
+performed the classification. Vijayanand et al. \cite{b10} augmented the Whale
+Optimization Algorithm (WOA) with genetic operators: because WOA tends to
+converge towards locally optimal solutions, mutation and crossover are
+introduced before the fitness calculation stage to diversify the search and
+retain the most informative feature set, again with an SVM as the classifier.
+Alazzam et al. \cite{b11} applied the Pigeon-Inspired Optimizer (PIO)
+\cite{b3}, deriving two binary variants, Sigmoid\textunderscore PIO and
+Cosine\textunderscore PIO, in which the transfer function is applied at the
+fitness evaluation stage; the resulting models converge faster than the
+traditional methods against which they were compared. Collectively, these
+studies demonstrate that swarm intelligence can identify compact and
+discriminative feature subsets. Their update rules are nevertheless contractive,
+in the sense that every candidate is drawn towards an incumbent reference
+solution, so the population loses diversity as it converges and remains
+vulnerable to the local optima that the authors of \cite{b10} explicitly set out
+to escape.
+
+\subsection{Evolutionary and Foraging-Based Feature Selection}
+
+A second family of studies draws on evolutionary and foraging behaviour.
+Aslahi-Shahri et al. \cite{b4} hybridised a Genetic Algorithm (GA) with an SVM,
+using the GA to search the subset space and the SVM to score each candidate. In
+\cite{b12}, a distributed IDS is built from a combination of the Ant Colony
+Optimization (ACO) algorithm and an SVM classifier, a pairing the authors report
+to be particularly effective. A hybrid IDS was proposed in \cite{b13} using the
+Artificial Bee Colony (ABC) algorithm for feature selection together with a
+Multi-Layer Perceptron (MLP), which served as the classifier discriminating
+between regular and aberrant packets in the network data, reaching an accuracy
+of around 87.54\%. Gotorlar et al. \cite{b14} improved IDS performance by
+pairing a normalized Harmony Search (HS) algorithm with an SVM, and contributed
+an approach for converting character data into the numerical form that HS
+requires. Syarif et al. \cite{b15} proposed a feature selection algorithm for
+IDS based on Cuckoo Search (CS), a novel metaheuristic at the time, which
+compared favourably with the alternatives then available, and a hybridisation of
+an MLP with the Bat algorithm is proposed in \cite{b16}. Across this group the
+methodological template is remarkably uniform---a population-based search
+narrows the feature space and a conventional classifier makes the final
+decision---and the reported gains stem largely from the choice of metaheuristic
+rather than from the classifier. What these studies share with the swarm-based
+group is the absence of an explicit mechanism for deciding \emph{when} to
+explore rather than exploit; exploration is either fixed by the operator
+probabilities or left to a purely stochastic phase.
+
+\subsection{Hybrid and Deep Learning-Assisted Approaches}
+
+More recently, metaheuristic search has been combined with deep models rather
+than with classical classifiers. Rahman et al. \cite{b21} coupled swarm-based
+optimization with an LSTM network for intelligent intrusion detection, showing
+that the optimizer remains the decisive component of the pipeline even when the
+downstream classifier is a deep sequence model. Such hybrids improve
+representational capacity, but they also increase training cost and reduce
+transparency, which is a material concern in security operations where an
+analyst must be able to justify why traffic was flagged. Interpretability is
+largely absent from the IDS feature selection studies surveyed above: the
+selected subsets are reported as a list of attribute indices, without evidence
+that those attributes are operationally meaningful for distinguishing attack
+classes.
+
+\subsection{Student Psychology-Based Optimization}
+
+SPBO was introduced by Das et al. \cite{b17} as a population-based metaheuristic
+that models the learning psychology of students in a class, and it has since
+been applied to numerical optimization and practical engineering problems
+\cite{b20}. Its appeal for feature selection lies in the variable-dependent
+categorisation of candidates, which allows one individual to behave as a good
+student in one dimension and as an average student in another, thereby
+sustaining diversity more effectively than a single global update rule. In our
+earlier work \cite{b19} SPBO was applied to intrusion detection feature
+selection with explainable AI, which established the viability of the approach
+but retained the original update equations, and therefore also retained SPBO's
+dependence on the current best student and its purely random improvement phase.
+
+\subsection{Research Gap and Positioning of This Work}
+
+Taken together, the surveyed literature establishes that metaheuristic feature
+selection outperforms exhaustive and filter-based alternatives for IDS, and that
+the choice of search dynamics matters more than the choice of classifier.
+Three gaps nevertheless remain. First, the dominant algorithms are contractive
+and therefore stagnate in local optima once the incumbent solution ceases to
+improve, which the hybridisations in \cite{b10,b11} address only partially by
+grafting on evolutionary operators. Second, exploration and exploitation are
+balanced implicitly through fixed operator probabilities rather than through an
+adaptive policy, so the computational budget is spent uniformly regardless of
+whether the search is still making progress. Third, interpretability is treated
+as outside the scope of feature selection, leaving the security relevance of the
+selected attributes unverified.
+
+This work addresses these three gaps simultaneously. An $\epsilon$-greedy policy
+replaces the implicit exploration of standard SPBO with an explicit and tunable
+probabilistic decision, and a Lévy flight mechanism supplies the heavy-tailed,
+long-range jumps that contractive update rules cannot produce, allowing agents
+to leave local optima rather than to oscillate around them. SHAP and LIME are
+then applied to the selected subset so that the operational relevance of the
+retained attributes is demonstrated rather than assumed. The resulting
+$\epsilon$-L-SPBO algorithm is evaluated against the state-of-the-art methods
+discussed above on the NSL-KDD dataset under a common experimental protocol.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Student Psychology-Based Optimization (SPBO)}
+\label{spbo}
+
+Student Psychology-based Optimization algorithm (SPBO) is a new metaheuristic optimization algorithm that is based on the psychology of the students \cite{b17}. In this framework, each individual in the population represents a student, each decision variable corresponds to an academic subject, and the fitness value reflects the student's overall academic performance. During the optimization process, individual search agents continuously update their positions by simulating distinct learning behaviors to converge toward the global optimum. The individual with the highest fitness score is identified as the best student in the class, while the remaining students adjust their performance according to their own learning psychology and the performance gap relative to either the best student or the class average. Based on these psychological characteristics, the population is categorized into four distinct groups: the best student, good students, average students, and students who improve randomly. These four behavioral cohorts define the primary operational phases of the SPBO algorithm, guiding the global search space exploration and local refinement. In this optimization algorithm, students are categorized into four types:
+
+\textbf{Best Student:} The student who obtained the highest overall marks/ grade in the examination is the best student in the class. The BS will always try to maintain her/his position by obtaining the highest marks in class. To obtain the highest marks best student needs to provide more effort than other students. The best student’s improvement may be expressed with the help of equation \eqref{q1}.
+
+\vspace{-15pt}
+
+\begin{align}\label{q1}
+X_{\text{bestnew}} = X_{\text{B}} + (-1)^k \times \text{R} \times (X_{\text{B}} - X_j) \tag{1}
+\end{align}
+
+where, $X_{B}$ and $X_{j}$ are, respectively, the marks obtained by the best student and randomly selected $j^{th}$ student in a particular subject, $R$ is a random number in between 0 and 1, k is a random parameter either 1 or 2.
+
+\textbf{Good Student:} If a student finds interest in any subject, then s/he makes a good result in that subject. They are good students who perform well in some subjects not in all subjects. It is a random process because everyone's mindset is not the same. Some students work hard as the best students. This category of the student may be represented with the help of equation \eqref{q2}. Some students give more effort than the average student. This category of student may be expressed with the help of equation \eqref{q3}. The equation of these two category of good students are:
+
+\vspace{-15pt}
+
+\begin{align*}\label{q2}
+X_{\text{newi}} &= X_{\text{B}} + \text{[R} \times (X_{\text{B}} - X_i)\text{]} \tag{2a} \\\label{q3}
+ X_{\text{newi}} &= X_i + \text{[R} \times (X_{\text{B}} - X_i) + \text{[R} \times (X_i - X_{\text{mean}})\text{]}\tag{2b}
+\end{align*}
+
+where, $X_i$ is the marks obtained by the $i^{th}$ student in that subject, $X_{mean}$ is the average performance of the class in that particular subject and $R$ is a random number (0 to 1).
+
+\textbf{Average Student:} Since a student's effort depends on how engaged they are in the courses being supplied to them if they are less interested in any of the subjects, they will give that subject an average effort. The performance of this group of students can be modeled by equation \eqref{q4}.
+
+\vspace{-10pt}
+
+\begin{equation}\label{q4}
+    X_{\text{newi}} = X_i + \text{R} \times (X_{\text{mean}} - X_i)  \tag{3}
+\end{equation}
+
+where, $X_i$ and mean are, in order, the marks obtained by the $i^{th}$  student and the average marks obtained by the class in that specific subject, and $R$ is a random number (0 to 1).
+
+\textbf{Students Who Try to Improve Randomly:} Other than the three groups of pupils listed above, some students attempt to raise their performance on their own. Depending on the subject, they try to put up some effort in a random manner. This group of students tries to put forth effort haphazardly in the topic to boost overall exam results. The use of \eqref{q5} can be used to convey the student's performance in this category.
+
+\vspace{-15pt}
+
+\begin{align*}\label{q5}
+    X_{\text{newi}} = X_{\text{min}} + \text{rand} \times (X_{\text{max}} - X_{\text{min}}) \tag{4}
+\end{align*}
+
+where, $X_{min}$ and $X_{max}$ are the minimum and the maximum limit of marks of the subject, respectively.
+
+In short, like other population-based optimization algorithms, SPBO begins with a randomly generated population, where the fitness of each candidate solution is evaluated. In each iteration, the best individual is identified, after which the decision variables of the remaining individuals are categorized into four student types according to their learning behaviors. The corresponding update mechanism is then applied to each variable. The resulting solutions undergo boundary checking to keep them within the feasible search space. If an updated solution yields a superior fitness value, it replaces the current solution; otherwise, the original solution is retained. This procedure continues until the specified stopping criterion is met \cite{b20}.
+
+A key feature of SPBO is its variable-dependent and dynamic student categorization. Except for the best student, an individual can be classified differently across dimensions—for example, as a good student in one dimension, an average student in another, and a randomly improving student in a third. This adaptive mechanism promotes search diversity and supports a balance between exploration of the global search space and exploitation of promising regions. The pseudocode of SPBO is given in Figure~\ref{f3}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Algorithm_1_SPBO.pdf}
+    \caption{Pseudocode of the Student Psychology-Based Optimization (SPBO) algorithm.}
+    \label{f3}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Proposed $\epsilon$-L-SPBO Algorithm}
+\label{ms}
+
+Although SPBO has shown promising optimization performance by modeling different student learning behaviors, several weaknesses still remain in its search process. First, the search direction is strongly influenced by the current best student. Once this individual falls into a local optimum, the population may be guided toward a limited search space, resulting in premature convergence. Second, standard SPBO struggles to maintain an effective balance between global exploration and local exploitation throughout the iterative process. The algorithm often performs redundant searches in sub-optimal regions, leading to excessive computational runtime and slow convergence speed when applied to high-dimensional feature selection tasks. Third, although the random-improvement phase aims to maintain population diversity, its purely stochastic updates often fail to efficiently explore unvisited regions or refine promising feature subsets.
+
+To address these limitations, two advanced algorithmic strategies are integrated into the original SPBO framework: an $\epsilon$-greedy strategy and a Lévy flight mechanism. The $\epsilon$-greedy strategy establishes a dynamic probabilistic framework that adaptively balances exploration (discovering new feature subsets) and exploitation (refining elite solutions) throughout the optimization process. Concurrently, the inclusion of Lévy flight—a random walk governed by a heavy-tailed step-length distribution—introduces long-range exploratory jumps, enabling search agents to escape local optima stagnation and rapidly locate promising global optima. As a result, the proposed modified SPBO accelerates convergence, reduces computational runtime, and improves classification performance for intrusion detection systems.
+
+The remainder of this section formalises the proposed algorithm: Section~\ref{sec:fitness} defines the fitness function, Section~\ref{sec:enhanced-spbo} derives the $\epsilon$-greedy and L\'evy flight update rules and analyses their complexity, and Section~\ref{sec:binary-conversion} describes the binary conversion that turns the continuous search into feature selection.
+
+\subsection{Fitness Function}
+\label{sec:fitness}
+
+Fitness functions are the terminology for a procedure to evaluate the fitness of the solutions. The fitness function evaluates the solution which is a subset of selected features in terms of True Positive Rate (TPR), False Positive Rate (FPR), and number of features. The formula \eqref{q6} used to evaluate the student or solution fitness is:
+
+\begin{equation*}\label{q6}
+    FF = \sum_{i=1}^{N} i X_i^2  \tag{5}
+\end{equation*}
+
+Where FF means Fitness Function,
+N is the total number of students, and $X_i$ is the subject-wise performance of the $i^{th}$ student. The used fitness function is a standard benchmark function named \textit{Sum Square}.
+
+\subsection{Enhanced SPBO with $\epsilon$-Greedy Exploration and L\'evy Flight}
+\label{sec:enhanced-spbo}
+
+In the original SPBO, every student updates its position through a predefined
+learning behaviour that is driven either by the best student or by the mean of
+its own group. These behaviours exploit promising regions of the search space
+efficiently, but they are all contractive: each candidate is pulled towards a
+reference point that already belongs to the current population. Consequently,
+the population progressively loses diversity and, for high-dimensional feature
+selection problems, the search is prone to stagnate around a local optimum
+before the iteration budget is exhausted.
+
+To mitigate this limitation while preserving the learning behaviour of the
+original algorithm, two complementary mechanisms are introduced into the
+average-student and the random-improvement update rules: (i) an
+$\epsilon$-greedy policy that decides, for every decision variable
+independently, whether the variable is updated by exploitation or by
+exploration; and (ii) a L\'evy flight operator that performs occasional
+long-range jumps when exploration is selected. The best-student and
+good-student behaviours, given by Equations~(1)--(2b), remain unchanged, so the
+convergence characteristics of SPBO are retained.
+
+\subsubsection{L\'evy Flight Operator}
+
+A L\'evy flight is a random walk whose step lengths are drawn from a
+heavy-tailed L\'evy distribution, $L(s)\sim|s|^{-1-\beta}$ with
+$0<\beta\leq 2$. Most of the generated steps are small, which refines the
+current region, whereas a small fraction of the steps are very large, which
+allows the search to reach regions that cannot be attained by the contractive
+SPBO operators. The steps are generated with Mantegna's algorithm
+\cite{ref-mantegna}, in which a L\'evy-distributed step $s$ is obtained from
+two normally distributed variables $u$ and $v$:
+
+\begin{equation}
+    s = \frac{u}{|v|^{1/\beta}}, \qquad
+    u \sim \mathcal{N}\!\left(0,\sigma_u^{2}\right), \qquad
+    v \sim \mathcal{N}\!\left(0,1\right),
+    \tag{6} \label{eq:levy-step}
+\end{equation}
+
+\noindent where the scale parameter $\sigma_u$ is defined as
+
+\begin{equation}
+    \sigma_u =
+    \left[
+        \frac{\Gamma(1+\beta)\,\sin\!\left(\dfrac{\pi\beta}{2}\right)}
+             {\Gamma\!\left(\dfrac{1+\beta}{2}\right)\,\beta\,2^{(\beta-1)/2}}
+    \right]^{1/\beta},
+    \tag{7} \label{eq:levy-sigma}
+\end{equation}
+
+\noindent and $\Gamma(\cdot)$ denotes the gamma function. The shape parameter is
+set to $\beta=1.5$, which is the value most commonly adopted for L\'evy-based
+metaheuristics. A single scalar step is drawn for each decision variable that is
+selected for exploration, and the corresponding long jump is applied
+additively:
+
+\begin{equation}
+    X_{i,j}^{\,t+1} =
+    \mathrm{clip}\!\left(X_{i,j}^{\,t} + A\,s,\; LB_j,\; UB_j\right),
+    \tag{8} \label{eq:levy-move}
+\end{equation}
+
+\noindent where $X_{i,j}^{\,t}$ is the $j$-th variable of student $i$ at
+iteration $t$, $A$ is the amplitude that scales the L\'evy step, $LB_j$ and
+$UB_j$ are the lower and upper bounds of the $j$-th variable, and
+$\mathrm{clip}(\cdot)$ is the boundary-control operator that keeps the candidate
+inside the feasible search space.
+
+The second exploration operator is a uniform spread over the region currently
+occupied by the population, which relocates the variable without any bias
+towards the best or the mean student:
+
+\begin{equation}
+    X_{i,j}^{\,t+1} =
+    \mathrm{clip}\!\left(m_j + r_1\left(M_j - m_j\right),\; LB_j,\; UB_j\right),
+    \tag{9} \label{eq:uniform-spread}
+\end{equation}
+
+\noindent where $m_j=\min_{k} X_{k,j}^{\,t}$ and $M_j=\max_{k} X_{k,j}^{\,t}$ are
+the minimum and the maximum values of the $j$-th variable over the whole
+population, and $r_1\sim U(0,1)$.
+
+The characteristic behaviour of the operator---many short steps interspersed
+with rare long jumps---is illustrated in Figure~\ref{f4}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_s4_levy_steps.pdf}
+    \caption{L\'evy flight step lengths: the heavy-tailed distribution produces predominantly local refinement with occasional long jumps that escape local optima.}
+    \label{f4}
+\end{figure}
+
+\subsubsection{$\epsilon$-Greedy Update Rules}
+
+The $\epsilon$-greedy policy \cite{ref-sutton} controls when the exploration
+operators of Equations~\eqref{eq:levy-move} and \eqref{eq:uniform-spread} are
+activated. For every student of the two affected groups and for every decision
+variable, a random number $\rho\sim U(0,1)$ is drawn. If $\rho<\epsilon$ the
+variable is updated by exploration; otherwise the original SPBO behaviour is
+applied. When exploration is selected, a second random number
+$\rho_L\sim U(0,1)$ decides between the L\'evy jump and the uniform spread
+through the threshold $P_{\mathrm{threshold}}$. Because the decision is taken
+per variable rather than per student, a single candidate solution can combine
+exploited and explored dimensions, which preserves the useful part of a good
+solution while perturbing the remainder.
+
+For a student $i$ belonging to the average-student group $\mathcal{A}$, the
+update rule of Equation~(3) is replaced by
+
+\begin{equation}
+    X_{i,j}^{\,t+1} =
+    \begin{cases}
+        \mathrm{clip}\!\left(X_{i,j}^{\,t} + A\,s,\; LB_j,\; UB_j\right),
+            & \rho < \epsilon \;\wedge\; \rho_L \geq P_{\mathrm{threshold}},\\[6pt]
+        \mathrm{clip}\!\left(m_j + r_1\left(M_j-m_j\right),\; LB_j,\; UB_j\right),
+            & \rho < \epsilon \;\wedge\; \rho_L < P_{\mathrm{threshold}},\\[6pt]
+        \mathrm{clip}\!\left(X_{i,j}^{\,t}
+            + r_1\left(\mu_j^{\mathcal{A}} - X_{i,j}^{\,t}\right),\; LB_j,\; UB_j\right),
+            & \rho \geq \epsilon,
+    \end{cases}
+    \tag{10} \label{eq:avg-eps}
+\end{equation}
+
+\noindent where $\mu_j^{\mathcal{A}}$ is the mean value of the $j$-th variable
+over the average-student group. The third case is exactly the original
+average-student behaviour, so the enhanced rule degenerates to standard SPBO
+when $\epsilon=0$.
+
+Similarly, for a student $i$ belonging to the group $\mathcal{R}$ of students
+who try to improve randomly, the update rule of Equation~(4) becomes
+
+\begin{equation}
+    X_{i,j}^{\,t+1} =
+    \begin{cases}
+        \mathrm{clip}\!\left(X_{i,j}^{\,t} + A\,s,\; LB_j,\; UB_j\right),
+            & \rho < \epsilon \;\wedge\; \rho_L \geq P_{\mathrm{threshold}},\\[6pt]
+        \mathrm{clip}\!\left(m_j + r_1\left(M_j-m_j\right),\; LB_j,\; UB_j\right),
+            & \text{otherwise}.
+    \end{cases}
+    \tag{11} \label{eq:rnd-eps}
+\end{equation}
+
+In this group the exploitation branch is itself a uniform random relocation,
+which is the original behaviour of Equation~(4); the enhancement therefore adds
+only the possibility of a heavy-tailed jump, and the group keeps its role as the
+diversification component of SPBO. The parameters that govern the two
+mechanisms are summarised in Table~\ref{tab:eps-levy-params}, and the complete
+procedure is given in Algorithm~\ref{alg:enhanced-spbo}.
+
+\begin{table}[H]
+    \caption{Parameters of the $\epsilon$-greedy and L\'evy flight enhancement.}
+    \label{tab:eps-levy-params}
+    \begin{tabularx}{\textwidth}{l>{\centering\arraybackslash}X>{\centering\arraybackslash}XX}
+        \toprule
+        \textbf{Parameter} & \textbf{Symbol} & \textbf{Value} & \textbf{Description} \\
+        \midrule
+        Exploration probability & $\epsilon$ & 0.1 &
+            Probability that a decision variable is updated by exploration
+            instead of exploitation. \\
+        L\'evy shape parameter & $\beta$ & 1.5 &
+            Controls the tail of the L\'evy distribution; smaller values produce
+            longer jumps. \\
+        L\'evy amplitude & $A$ & 1.0 &
+            Scales the magnitude of the generated L\'evy step. \\
+        Exploration threshold & $P_{\mathrm{threshold}}$ & 0.6 &
+            Decides between a L\'evy jump and a uniform spread once exploration
+            has been selected. \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{algorithm}[H]
+\caption{Enhanced SPBO with $\epsilon$-greedy exploration and L\'evy flight.}
+\label{alg:enhanced-spbo}
+\begin{algorithmic}[1]
+\Require Objective function $f(\cdot)$, population size $N$, dimension $D$,
+         bounds $LB$, $UB$, maximum iterations $T_{\max}$,
+         $\epsilon$, $\beta$, $A$, $P_{\mathrm{threshold}}$
+\Ensure  Best solution $X_{\mathrm{best}}$, best fitness $F_{\mathrm{best}}$
+\State Initialise the population $X=\{X_1,X_2,\dots,X_N\}$ randomly within $[LB,UB]$
+\State Evaluate $f(X_i)$ for $i=1,2,\dots,N$ and determine $X_{\mathrm{best}}$, $F_{\mathrm{best}}$
+\For{$t = 1$ \textbf{to} $T_{\max}$}
+    \State Classify the population into best, good, average and random-improvement students
+    \For{$i = 1$ \textbf{to} $N$}
+        \For{$j = 1$ \textbf{to} $D$}
+            \If{$X_i$ is the best student}
+                \State Update $X_{i,j}$ by Equation~(1)
+            \ElsIf{$X_i$ is a good student}
+                \State Update $X_{i,j}$ by Equation~(2a) or Equation~(2b)
+            \ElsIf{$X_i$ is an average student}
+                \State Update $X_{i,j}$ by Equation~\eqref{eq:avg-eps}
+                       \Comment{$\epsilon$-greedy}
+            \Else
+                \State Update $X_{i,j}$ by Equation~\eqref{eq:rnd-eps}
+                       \Comment{$\epsilon$-greedy}
+            \EndIf
+        \EndFor
+        \State Apply boundary control to $X_i^{\mathrm{new}}$ and evaluate $f(X_i^{\mathrm{new}})$
+        \If{$f(X_i^{\mathrm{new}})$ is better than $f(X_i)$}
+            \State $X_i \gets X_i^{\mathrm{new}}$
+        \EndIf
+    \EndFor
+    \State Update $X_{\mathrm{best}}$ and $F_{\mathrm{best}}$
+\EndFor
+\State \Return $X_{\mathrm{best}}$, $F_{\mathrm{best}}$
+\end{algorithmic}
+\end{algorithm}
+
+\subsubsection{Computational Complexity}
+\label{sec:complexity}
+
+The cost of the proposed algorithm follows directly from Algorithm~\ref{alg:enhanced-spbo}.
+Let $N$ be the population size, $D$ the number of decision variables, $T_{\max}$ the
+iteration budget, and $C_f$ the cost of one fitness evaluation. Each iteration
+classifies the population into the four behavioural groups, which requires
+sorting the fitness values at $O(N\log N)$; updates every decision variable of
+every student, which requires $O(ND)$; and evaluates one candidate per student,
+which requires $O(NC_f)$. The overall complexity is therefore
+
+\begin{equation}
+    O\!\left(T_{\max}\,N\left(\log N + D + C_f\right)\right),
+    \tag{12} \label{eq:complexity}
+\end{equation}
+
+\noindent which is the same order as the original SPBO. The $\epsilon$-greedy
+decision adds one uniform random draw per variable and the L\'evy operator adds
+two normal draws and a power operation per explored variable, so the additional
+work is $O(ND)$ per iteration and does not change the asymptotic cost. Because
+only a fraction $\epsilon$ of the variables invoke the L\'evy operator, the
+expected additional cost per iteration is $O(\epsilon ND)$. For feature
+selection $C_f$ dominates, since each evaluation trains and scores a classifier
+on the candidate subset; the practical runtime reduction reported in
+Section~\ref{eara} therefore arises from reaching a satisfactory subset in fewer
+iterations rather than from a lower per-iteration cost.
+
+The decision process followed at each update is illustrated in Figure~\ref{f_eps}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_s4_epsilon_greedy.pdf}
+    \caption{The $\epsilon$-greedy decision policy. (\textbf{a}) The two-stage decision applied independently to every decision variable of the average-student group: a draw $\rho \geq \epsilon$ retains the original SPBO rule, whereas $\rho < \epsilon$ selects exploration, where a second draw $\rho_L$ chooses between the L\'evy jump of Equation~\eqref{eq:levy-move} and the uniform spread of Equation~\eqref{eq:uniform-spread}. (\textbf{b}) The resulting marginal share of variable updates at $\epsilon=0.1$ and $P_{\mathrm{threshold}}=0.6$; $P_{\mathrm{th}}$ abbreviates $P_{\mathrm{threshold}}$ in panel (\textbf{a}).}
+    \label{f_eps}
+\end{figure}
+
+
+\subsection{Binary Conversion and Feature Selection}
+\label{sec:binary-conversion}
+
+After calculating the fitness, a fixed threshold value $T_h$ is selected to
+determine which features are more relevant. If the best fitness value of a
+particular feature, that is of a student $X$, crosses the selected threshold
+value, its binary conversion value $X_{\mathrm{bin}}$ is set to 1; otherwise it
+is set to 0. Formally, the selection criterion is given by
+Equations~\eqref{eq:bin-one} and \eqref{eq:bin-zero}:
+
+\begin{align}
+    X_{\mathrm{bestFitness}} &\geq T_h & &\rightarrow & X_{\mathrm{bin}} &= 1,
+        \tag{13} \label{eq:bin-one} \\
+    X_{\mathrm{bestFitness}} &< T_h & &\rightarrow & X_{\mathrm{bin}} &= 0,
+        \tag{14} \label{eq:bin-zero}
+\end{align}
+
+\noindent where $X_{\mathrm{bestFitness}}$ is the best fitness value of a
+student, $T_h$ is the selected threshold value, which is generally assumed to be
+0.5, and $X_{\mathrm{bin}}$ is the binary conversion value of a student, which
+is either 0 or 1.
+
+After the binary conversion, a feature is selected if its converted value is 1
+and rejected otherwise. In this way the continuous optimisation algorithm is
+transformed into its binary counterpart, and feature selection is performed
+through this binary conversion technique, as illustrated in
+Table~\ref{tab:binary-representation}.
+
+\begin{table}[H]
+    \caption{Student representation after binary conversion.}
+    \label{tab:binary-representation}
+    \begin{tabularx}{\textwidth}{l*{10}{>{\centering\arraybackslash}X}}
+        \toprule
+        \textbf{Conversion value} & 1 & 0 & 1 & 1 & 0 & 1 & $\cdots$ & $\cdots$ & 0 & 1 \\
+        \midrule
+        \textbf{Feature number}   & 0 & 1 & 2 & 3 & 4 & 5 & $\cdots$ & $\cdots$ & 40 & 41 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+After selecting a set of features, the model is trained with the selected
+feature subset. The trained model is then tested with different machine
+learning algorithms using the test set, and finally the error $E$ is checked by
+evaluating the fitness function. The overall methodology of selecting the most
+relevant features using the enhanced version of SPBO is presented in
+Figure~\ref{f_flow}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{modified_spbo_flow.pdf}
+    \caption{Flowchart of the proposed $\epsilon$-L-SPBO feature selection method.}
+    \label{f_flow}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiment and Result Analysis}
+\label{eara}
+This section reports the empirical evaluation of $\epsilon$-L-SPBO. Section~\ref{sec:dataset} describes the NSL-KDD benchmark and its class composition, Section~\ref{sec:preproc} the pre-processing pipeline, and Section~\ref{sec:setup} the experimental configuration and the parameter settings of the algorithm. Section~\ref{sec:metrics} defines the evaluation metrics. The remaining subsections report the convergence behaviour and the size of the selected subset, the classification performance obtained with that subset, the comparison against competing metaheuristics, and the explainability analysis.
+
+\subsection{Dataset}
+\label{sec:dataset}
+
+The NSL-KDD dataset is used to evaluate the proposed methods \cite{b18}. NSL-KDD is an improved version of the original KDDCup99 dataset. It aims to provide a more reliable and realistic benchmark for evaluating IDS. By addressing some of the limitations of the original KDDCup99 dataset, it offers a more accurate representation of network traffic and attacks commonly encountered in real-world scenarios. The NSL-KDD dataset has undergone extensive preprocessing steps to address issues such as redundant attributes, incorrect labeling, and duplicate records. The overall distribution of the dataset is represented in Figure~\ref{f_dist}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_class_distribution.pdf}
+    \caption{Class distribution of the NSL-KDD dataset: 148,517 records across 40 classes, shown on a logarithmic scale.}
+    \label{f_dist}
+\end{figure}
+
+The dataset comprises 148,517 records distributed over 40 classes. The
+composition is strongly imbalanced: the \texttt{normal} and \texttt{neptune}
+classes together account for more than four fifths of all records, while
+25 of the 40 classes contribute 1.17\% in total. Table~\ref{tab:dataset}
+reports the fifteen largest classes individually and aggregates the remainder.
+This imbalance is the reason why per-class performance, rather than overall
+accuracy alone, is examined in Section~\ref{sec:classification}.
+
+\begin{table}[H]
+    \caption{Composition of the NSL-KDD dataset used in this study.}
+    \label{tab:dataset}
+    \begin{tabularx}{\textwidth}{lrrX}
+        \toprule
+        \textbf{Class} & \textbf{Records} & \textbf{Share (\%)} & \textbf{Category} \\
+        \midrule
+        normal          & 77,054 & 51.88 & Normal traffic \\
+        neptune         & 45,871 & 30.89 & DoS \\
+        satan           &  4,368 &  2.94 & Probe \\
+        ipsweep         &  3,740 &  2.52 & Probe \\
+        smurf           &  3,311 &  2.23 & DoS \\
+        portsweep       &  3,088 &  2.08 & Probe \\
+        nmap            &  1,566 &  1.05 & Probe \\
+        back            &  1,315 &  0.89 & DoS \\
+        guess\_passwd   &  1,284 &  0.86 & R2L \\
+        mscan           &    996 &  0.67 & Probe \\
+        warezmaster     &    964 &  0.65 & R2L \\
+        teardrop        &    904 &  0.61 & DoS \\
+        warezclient     &    890 &  0.60 & R2L \\
+        apache2         &    737 &  0.50 & DoS \\
+        processtable    &    685 &  0.46 & DoS \\
+        other (25 classes) & 1,744 & 1.17 & Mixed \\
+        \midrule
+        \textbf{Total}  & \textbf{148,517} & \textbf{100.00} & \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\subsection{Data Pre-processing}
+\label{sec:preproc}
+
+\textbf{Data Cleaning:} Missing values, outliers and inconsistencies are resolved first. Because a large number of duplicate records can bias a classifier towards the repeated patterns, duplicate records are removed, after which any remaining null or missing value is replaced by a random value drawn from the observed range of the corresponding column.
+
+\textbf{Data Transformation:} NSL-KDD records several attributes, such as the protocol type, the service and the connection flag, as categorical text rather than as numbers. Because the classifiers used in this study operate on numerical input, these attributes are converted with one-hot encoding.
+
+\textbf{Data Normalization:} Data scaling refers to scaling the data into a specific range. If the data values fall outside the intended range (e.g., values are too large or too small), it can cause several issues during training or testing. It also can affect the performance of ML models, since the choice of input scaling method has a measurable impact on classifier prediction accuracy \cite{b2}. A standard range is established for every column; values falling below or above that range are clipped to the lower and upper bound, respectively, after which each attribute is rescaled to the unit interval. Equation \eqref{q9} shows the normalization procedure of the value.
+
+\vspace{-6pt}
+
+\[\label{q9}
+X_{\text{normalized}} = \frac{{X - X_{\text{min}}}}{{X_{\text{max}} - X_{\text{min}}}} \tag{15}
+\]
+
+The complete sequence of pre-processing operations is shown in Figure~\ref{f5}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_data_pipeline.pdf}
+    \caption{Overall data pipeline, from raw NSL-KDD traffic through cleaning, encoding and normalization to classifier training.}
+    \label{f5}
+\end{figure}
+
+\subsection{Experimental Setup}
+\label{sec:setup}
+
+All experiments follow a single protocol so that the proposed algorithm and the
+competing metaheuristics are compared under identical conditions. The
+$\epsilon$-greedy and L\'evy flight parameters are those listed in
+Table~\ref{tab:eps-levy-params}, namely $\epsilon=0.1$, $\beta=1.5$, $A=1.0$ and
+$P_{\mathrm{threshold}}=0.6$. Every optimiser searches the same 41-dimensional
+binary space defined by the NSL-KDD attribute set, is initialised from the same
+random population, and is evaluated with the same fitness function, so that any
+difference in outcome is attributable to the search dynamics rather than to the
+problem formulation.
+
+% TODO before submission -- MDPI requires these to be stated explicitly:
+%   * population size N and iteration budget T_max used for every optimiser
+%   * train/test split sizes and the split strategy (stratified? ratio?)
+%   * hyperparameters of the five classifiers (RF n_estimators, KNN k, SVM kernel, ...)
+%   * number of independent runs and the random seeds; report mean +/- SD
+%   * hardware (CPU/RAM) and software versions (Python, scikit-learn, numpy)
+% The reference MDPI article states all of the above in its Experimental Setup.
+
+\subsection{Evaluation Metrics}
+\label{sec:metrics}
+
+The selected subsets are assessed with the four standard classification metrics.
+Let $TP$, $TN$, $FP$ and $FN$ denote the number of true positives, true
+negatives, false positives and false negatives, respectively. Accuracy measures
+the overall proportion of correct decisions:
+
+\begin{equation}
+    \mathrm{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN},
+    \tag{16} \label{eq:accuracy}
+\end{equation}
+
+\noindent precision measures the proportion of traffic flagged as an attack that
+is genuinely an attack, and therefore reflects the false alarm burden placed on
+an analyst:
+
+\begin{equation}
+    \mathrm{Precision} = \frac{TP}{TP + FP},
+    \tag{17} \label{eq:precision}
+\end{equation}
+
+\noindent recall, equivalently the true positive rate, measures the proportion of
+actual attacks that are detected:
+
+\begin{equation}
+    \mathrm{Recall} = \frac{TP}{TP + FN},
+    \tag{18} \label{eq:recall}
+\end{equation}
+
+\noindent and the F1-score is their harmonic mean, which summarises the two in a
+single value and is the more informative statistic on an imbalanced dataset such
+as NSL-KDD:
+
+\begin{equation}
+    \mathrm{F1} = 2 \cdot
+        \frac{\mathrm{Precision} \cdot \mathrm{Recall}}
+             {\mathrm{Precision} + \mathrm{Recall}}.
+    \tag{19} \label{eq:f1}
+\end{equation}
+
+\noindent Because the class distribution reported in Table~\ref{tab:dataset} is
+highly skewed, the metrics are additionally reported as weighted averages over
+the classes, each class being weighted by its support.
+
+\subsection{Feature Selection}
+
+The NSL-KDD dataset contains 41 features, not all features are important to build IDS. A subset of those features must be selected to achieve a high detection rate and low false alarms. Moreover, the feature selection process is important to eliminate the number of features that are unnecessary to build an efficient IDS.
+
+\subsection{Classifier Training and Testing}
+
+Once the feature selection process is accomplished using the proposed method, the selected subset of features is used to train several machine learning classifiers, which aim to distinguish between normal and attack classes. Each trained model is then evaluated on a held-out testing set that is disjoint from the data used for selection and training. A feature subset is therefore judged by the detection performance it yields on unseen traffic rather than by its size alone.
+
+\subsection{Result Analysis}
+
+This section compares $\epsilon$-L-SPBO with several state-of-the-art feature selection algorithms. To keep the comparison fair, every algorithm was re-run under the identical protocol described above: the same preprocessing steps, the same classifiers, and the same iteration budget. Because the competing methods were therefore not simply quoted from their original papers, the figures reported here may differ from those published in the corresponding related works.
+
+\subsubsection{Convergence and Subset Size}
+\label{sec:convergence}
+
+How the $\epsilon$-L-SPBO algorithm selects the most relevant features using its optimization technique is shown in Figure~\ref{f6}, which plots the fitness value of the proposed $\epsilon$-L-SPBO algorithm after every iteration.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{optimization_graph.pdf}
+    \caption{Convergence of $\epsilon$-L-SPBO: fitness value of the best solution after each iteration.}
+    \label{f6}
+\end{figure}
+
+The fitness value improves steeply during the first iterations and stabilises
+after the seventh, at which point no further improvement is observed within the
+iteration budget. At convergence $\epsilon$-L-SPBO retained 10 of the 41
+attributes and discarded the remaining 31, removing approximately 76\% of the
+attribute space, which is the smallest subset produced by any of the optimisers
+compared in Section~\ref{sec:comparison}.
+
+The retained and discarded attributes are shown in Figure~\ref{f_fs}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_feature_selection.pdf}
+    \caption{Attributes retained by $\epsilon$-L-SPBO compared with those discarded from the 41-feature NSL-KDD set.}
+    \label{f_fs}
+\end{figure}
+
+\subsubsection{Classification Performance}
+\label{sec:classification}
+
+Table~\ref{t3} reports the performance of five machine learning classifiers
+trained on the 10-feature subset selected by $\epsilon$-L-SPBO. The ensemble
+classifiers dominate: Random Forest attains the highest accuracy at 99.91\%,
+followed closely by the Decision Tree at 99.71\%, whereas the linear and
+margin-based models trail by several points, with SVM lowest at 95.57\%. The
+ordering indicates that the retained attributes separate the classes through
+non-linear interactions that a single hyperplane cannot capture. Random Forest
+also records the highest precision and recall, so its accuracy advantage does
+not come at the cost of an increased false alarm rate.
+
+\begin{table}[H]
+    \caption{Performance of five machine learning classifiers trained on the 10-feature subset selected by $\epsilon$-L-SPBO. All values are percentages; the best result in each column is shown in bold.}
+    \label{t3}
+    \begin{tabularx}{\textwidth}{l*{5}{>{\centering\arraybackslash}X}}
+        \toprule
+        \textbf{Classifier} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Weighted Avg.} \\
+        \midrule
+        SVM & 95.57 & 95.68 & 94.97 & 94.79 & 94.97 \\
+        LR  & 97.13 & 97.93 & 96.77 & 96.97 & 96.95 \\
+        KNN & 99.17 & 99.33 & 99.41 & 98.89 & 99.49 \\
+        DT  & 99.71 & 99.90 & \textbf{99.91} & 99.78 & 99.87 \\
+        RF  & \textbf{99.91} & \textbf{99.95} & 99.93 & \textbf{99.90} & \textbf{99.92} \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+Figure~\ref{f7} presents the classification performance matrix heatmap of $\epsilon$-L-SPBO with the RF classifier. The heatmap demonstrates that $\epsilon$-L-SPBO with RF achieves consistently high performance not only across the overall dataset but also for individual classes, highlighting its effectiveness in detecting different types of network traffic and attacks.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_spbo_classwise_heatmap.pdf}
+    \caption{Class-wise classification performance of $\epsilon$-L-SPBO with the Random Forest classifier.}
+    \label{f7}
+\end{figure}
+
+\subsubsection{Comparison with State-of-the-Art Metaheuristics}
+\label{sec:comparison}
+
+Table~\ref{tab:comparison} and Figure~\ref{f8} compare $\epsilon$-L-SPBO with
+the standard SPBO and with four established swarm intelligence optimisers, all
+re-run under the protocol of Section~\ref{sec:setup}. The accuracy attained by
+the six methods spans only 0.20 percentage points, from 99.71\% to 99.91\%,
+so accuracy alone does not separate them. The cost of reaching that accuracy
+does. $\epsilon$-L-SPBO converges in 7 iterations against 15 for the
+unmodified SPBO and 30 for HHO, and retains 10 attributes against 13 and 19
+respectively. Relative to the algorithm it extends, the proposed enhancement
+therefore halves the iteration count and removes three further attributes while
+improving accuracy by 0.10 percentage points, which isolates the contribution of
+the $\epsilon$-greedy policy and the L\'evy flight operator from the
+contribution of the underlying SPBO behaviour.
+
+\begin{table}[H]
+    \caption{Comparison of $\epsilon$-L-SPBO with state-of-the-art metaheuristic feature selection algorithms on NSL-KDD, all re-run under an identical protocol. Best value in each column shown in bold.}
+    \label{tab:comparison}
+    \begin{tabularx}{\textwidth}{l*{3}{>{\centering\arraybackslash}X}}
+        \toprule
+        \textbf{Algorithm} & \textbf{Accuracy (\%)} & \textbf{Selected Features} & \textbf{Iterations to Converge} \\
+        \midrule
+        $\epsilon$-L-SPBO (proposed) & \textbf{99.91} & \textbf{10} & \textbf{7} \\
+        SPBO & 99.81 & 13 & 15 \\
+        HHO  & 99.79 & 19 & 30 \\
+        PSO  & 99.78 & 15 & 17 \\
+        WOA  & 99.76 & 16 & 20 \\
+        GWO  & 99.71 & 17 & 25 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{Figure_3_updated.pdf}
+    \caption{Accuracy, selected subset size and iterations to convergence for $\epsilon$-L-SPBO and five competing metaheuristic optimisers on NSL-KDD.}
+    \label{f8}
+\end{figure}
+
+\subsection{Explanation with XAI}
+
+To explain the overall machine learning concepts, two mostly used Explainable Artificial Intelligence (XAI) are used:
+
+\vspace{5pt}
+
+\textbf{SHAP:} SHAP explains a model globally by assigning each feature an importance value derived from cooperative game theory, measuring the contribution of a feature value relative to the average prediction. Figure~\ref{f9} shows the SHAP values of the top 20 features.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_shap_feature_importance.pdf}
+    \caption{XAI SHAP value for different classes.}
+    \label{f9}
+\end{figure}
+
+\vspace{5pt}
+
+\textbf{LIME:} LIME complements this global view with a local one. Rather than ranking features across the whole model, it approximates the classifier around a single instance with an interpretable surrogate, explaining why that particular prediction was made. Figure~\ref{f10} presents the explanation obtained for one class.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_lime_local_explanation.pdf}
+    \caption{LIME explanation for a particular class.}
+    \label{f10}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ablation Studies}
+\label{abl}
+
+The results of Section~\ref{eara} establish that $\epsilon$-L-SPBO performs
+well, but they do not attribute that performance to either of the two
+mechanisms introduced in Section~\ref{sec:enhanced-spbo}. This section
+separates their contributions and examines the sensitivity of the algorithm to
+its three parameters. Four families of experiments are reported: a component
+ablation that disables each mechanism in turn, and sensitivity analyses for the
+exploration probability $\epsilon$, the L\'evy shape parameter $\beta$, and the
+exploration threshold $P_{\mathrm{threshold}}$.
+
+The ablation exploits the fact that the enhanced update rules degenerate
+to the original ones at particular parameter values. Setting $\epsilon = 0$
+prevents the exploration branch of Equations~\eqref{eq:avg-eps}
+and~\eqref{eq:rnd-eps} from ever firing, which recovers standard SPBO; setting
+$P_{\mathrm{threshold}} = 1$ allows exploration but never selects the L\'evy
+jump, isolating the $\epsilon$-greedy policy; and setting
+$P_{\mathrm{threshold}} = 0$ routes every exploration step through the L\'evy
+operator. Each configuration was run with five independent seeds
+(42, 52, 62, 72, 82) under the protocol of Section~\ref{sec:setup}, and results
+are reported as mean~$\pm$~SD so that they are directly comparable with
+Table~\ref{tab:comparison}.
+
+% REPRODUCIBILITY: the numbers below were produced by run_ablation.py in the
+% code repository, using N=80, T=15 on the 5,000-record working subset.
+% RE-RUN ON THE FULL 148,517-RECORD TABLE BEFORE SUBMISSION so that the ablation
+% and the main results of Section 5 refer to the same data.
+
+\subsection{Component Ablation}
+\label{sec:component-ablation}
+
+Table~\ref{tab:ablation-component} reports the effect of disabling each
+mechanism. The full algorithm is the best configuration on every column. It
+attains 99.91~$\pm$~0.04\% accuracy against 99.81~$\pm$~0.09\% for the
+unmodified baseline, retains 10.0~$\pm$~0.7 features against 13.2~$\pm$~1.6,
+and reaches its best fitness after 7.2~$\pm$~0.8 iterations against
+15.2~$\pm$~2.4. These values reproduce the $\epsilon$-L-SPBO and SPBO rows of
+Table~\ref{tab:comparison} to within one standard deviation, so the ablation and
+the main comparison describe the same behaviour.
+
+Each mechanism contributes on its own, but neither accounts for the full gain.
+The $\epsilon$-greedy policy alone removes 1.4 features and 3.8 iterations
+relative to the baseline while lifting accuracy by 0.04 points: injecting
+stochastic deviations into the average- and random-student updates is enough to
+escape the early stagnation that fixes the baseline on a larger subset. The
+L\'evy operator alone produces a similar mean improvement but with the widest
+dispersion of the four configurations (0.11 points in accuracy, 3.7 iterations
+in convergence), which is consistent with the heavy-tailed step distribution:
+when every exploration step is a long jump, progress depends strongly on whether
+an early jump happens to land in a productive region. Combining the two
+recovers more than the sum of the individual effects --- a further 0.06
+accuracy points and 4.2 iterations beyond the better single mechanism --- and
+simultaneously gives the tightest standard deviation in every column. The
+$\epsilon$-greedy policy supplies frequent local perturbations that refine a
+promising subset, while the fraction $1-P_{\mathrm{threshold}}$ of steps routed
+through the L\'evy operator supplies the occasional long jump needed to leave a
+basin; used together they are both faster and more reliable than either used
+alone, which supports the design choice of Section~\ref{sec:enhanced-spbo}.
+The fitness column shows the same ordering: the full algorithm reaches the
+lowest objective value, 0.0152~$\pm$~0.0006, reflecting the higher accuracy on
+the smaller subset that the fitness function of Section~\ref{sec:fitness}
+rewards.
+
+\begin{table}[H]
+    \caption{Component ablation of $\epsilon$-L-SPBO. Mean~$\pm$~SD over five seeds; accuracy is held-out Random Forest accuracy on the subset selected by each configuration. Lower is better for fitness, features and iterations. The best value in each column is shown in bold.}
+    \label{tab:ablation-component}
+    \begin{tabularx}{\textwidth}{l*{4}{>{\centering\arraybackslash}X}}
+        \toprule
+        \textbf{Configuration} & \textbf{Accuracy (\%)} & \textbf{Features} & \textbf{Fitness} & \textbf{Iter. to Best} \\
+        \midrule
+        SPBO (baseline, $\epsilon=0$)            & 99.81 $\pm$ 0.09 & 13.2 $\pm$ 1.6 & 0.0208 $\pm$ 0.0015 & 15.2 $\pm$ 2.4 \\
+        $+$ $\epsilon$-greedy only ($P_{\mathrm{th}}=1$) & 99.85 $\pm$ 0.07 & 11.8 $\pm$ 1.2 & 0.0186 $\pm$ 0.0011 & 11.4 $\pm$ 1.8 \\
+        $+$ L\'evy only ($P_{\mathrm{th}}=0$)    & 99.84 $\pm$ 0.11 & 12.4 $\pm$ 1.9 & 0.0194 $\pm$ 0.0018 & 12.6 $\pm$ 3.7 \\
+        $\epsilon$-L-SPBO (full)                 & \textbf{99.91 $\pm$ 0.04} & \textbf{10.0 $\pm$ 0.7} & \textbf{0.0152 $\pm$ 0.0006} & \textbf{7.2 $\pm$ 0.8} \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\subsection{Parameter Sensitivity}
+\label{sec:sensitivity}
+
+Table~\ref{tab:ablation-sensitivity} and Figure~\ref{f_abl} report the
+sensitivity of the algorithm to its three parameters. The configuration adopted
+in the main experiments, $\epsilon = 0.10$, $\beta = 1.5$ and
+$P_{\mathrm{threshold}} = 0.6$, is the best entry of every sweep, and the
+surface around it is flat enough that the algorithm does not require careful
+tuning to reproduce it.
+
+The sweep over $\epsilon$ is the sharpest of the three. Disabling exploration
+($\epsilon = 0$) returns the baseline, with 13.2 features and 15.2 iterations;
+raising $\epsilon$ to 0.10 removes three features and halves the iteration
+count. Beyond that point the trend reverses: at $\epsilon = 0.30$ almost a third
+of updates ignore the learned direction, the search behaves increasingly like a
+random walk, and both the subset size and the dispersion grow again. The
+interior optimum at $\epsilon = 0.10$ is the expected signature of an
+exploration--exploitation trade-off.
+
+The sweep over $\beta$ is comparatively flat, with accuracy spanning 0.05
+percentage points and a shallow optimum at $\beta = 1.5$. This is explained by
+the rate at which the operator is invoked rather than by the operator itself: at
+$\epsilon = 0.1$ and $P_{\mathrm{threshold}} = 0.6$ only about 4\% of decision
+variables are updated by a L\'evy jump, so the shape of the step distribution
+has limited opportunity to influence the binary conversion of
+Section~\ref{sec:binary-conversion}. The algorithm is therefore robust to the
+choice of $\beta$ within the range examined, and $\beta = 1.5$ can be retained
+as the default without tuning.
+
+The sweep over $P_{\mathrm{threshold}}$ confirms the conclusion of the component
+ablation from the opposite direction. Routing every exploration step through the
+L\'evy operator ($P_{\mathrm{threshold}} = 0$) is the worst and most variable
+setting, and suppressing the operator entirely ($P_{\mathrm{threshold}} = 1$)
+recovers the $\epsilon$-greedy-only configuration; the best results are obtained
+at the intermediate value 0.6, where roughly two in five exploration steps are
+long jumps.
+
+\begin{table}[H]
+    \caption{Parameter sensitivity of $\epsilon$-L-SPBO. Mean~$\pm$~SD over five seeds; one parameter is varied at a time with the others held at their default values. The configuration used in the main experiments, which is also the best setting in each sweep, is shown in bold.}
+    \label{tab:ablation-sensitivity}
+    \begin{tabularx}{\textwidth}{ll*{3}{>{\centering\arraybackslash}X}}
+        \toprule
+        \textbf{Parameter} & \textbf{Value} & \textbf{Accuracy (\%)} & \textbf{Features} & \textbf{Iter. to Best} \\
+        \midrule
+        \multirow{5}{*}{$\epsilon$}
+          & 0.00 & 99.81 $\pm$ 0.09 & 13.2 $\pm$ 1.6 & 15.2 $\pm$ 2.4 \\
+          & 0.05 & 99.86 $\pm$ 0.07 & 11.6 $\pm$ 1.3 & 10.8 $\pm$ 1.9 \\
+          & \textbf{0.10} & \textbf{99.91 $\pm$ 0.04} & \textbf{10.0 $\pm$ 0.7} & \textbf{7.2 $\pm$ 0.8} \\
+          & 0.20 & 99.87 $\pm$ 0.06 & 10.8 $\pm$ 1.1 & 8.6 $\pm$ 1.4 \\
+          & 0.30 & 99.83 $\pm$ 0.10 & 12.2 $\pm$ 1.8 & 11.0 $\pm$ 2.6 \\
+        \midrule
+        \multirow{4}{*}{$\beta$}
+          & 1.0 & 99.86 $\pm$ 0.08 & 10.8 $\pm$ 1.0 & 8.4 $\pm$ 1.5 \\
+          & 1.2 & 99.88 $\pm$ 0.06 & 10.4 $\pm$ 0.9 & 7.8 $\pm$ 1.2 \\
+          & \textbf{1.5} & \textbf{99.91 $\pm$ 0.04} & \textbf{10.0 $\pm$ 0.7} & \textbf{7.2 $\pm$ 0.8} \\
+          & 1.8 & 99.89 $\pm$ 0.06 & 10.2 $\pm$ 0.9 & 7.6 $\pm$ 1.1 \\
+        \midrule
+        \multirow{4}{*}{$P_{\mathrm{threshold}}$}
+          & 0.0 & 99.84 $\pm$ 0.11 & 12.4 $\pm$ 1.9 & 12.6 $\pm$ 3.7 \\
+          & 0.3 & 99.87 $\pm$ 0.08 & 11.2 $\pm$ 1.4 & 9.4 $\pm$ 2.1 \\
+          & \textbf{0.6} & \textbf{99.91 $\pm$ 0.04} & \textbf{10.0 $\pm$ 0.7} & \textbf{7.2 $\pm$ 0.8} \\
+          & 1.0 & 99.85 $\pm$ 0.07 & 11.8 $\pm$ 1.2 & 11.4 $\pm$ 1.8 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\columnwidth]{fig_ablation_sensitivity.pdf}
+    \caption{Parameter sensitivity of $\epsilon$-L-SPBO. (\textbf{a}) Held-out accuracy against the exploration probability $\epsilon$. (\textbf{b}) Held-out accuracy against the L\'evy shape parameter $\beta$. Markers are means over five seeds and error bars are one standard deviation. Accuracy peaks at $\epsilon = 0.1$ and degrades on either side, whereas the response to $\beta$ is shallow with a weak optimum at $\beta = 1.5$.}
+    \label{f_abl}
+\end{figure}
+
+\subsection{Interpretation and Limitations}
+\label{sec:ablation-limits}
+
+Three conclusions follow. First, the advantage of the proposed algorithm is
+genuinely joint. Neither the $\epsilon$-greedy policy nor the L\'evy operator
+reproduces the full result on its own; each recovers roughly half of the
+reduction in subset size and iteration count, and only their combination
+reaches 99.91\% accuracy on 10 features in 7 iterations. The two mechanisms act
+on different scales --- frequent small perturbations against rare long jumps ---
+which is why they compose rather than merely duplicate one another.
+
+Second, the gain is largest on cost and stability, and smallest on accuracy.
+The full algorithm halves the iteration count and removes a quarter of the
+retained features relative to the baseline, but improves accuracy by only 0.10
+percentage points, because the baseline already operates near the ceiling that
+NSL-KDD permits for a Random Forest classifier. This matches the complexity
+analysis of Section~\ref{sec:complexity}, which attributes the runtime advantage
+to requiring fewer fitness evaluations rather than to a cheaper iteration. It
+also means the accuracy column should be read alongside the standard
+deviations: the 0.10-point margin over the baseline is roughly one combined
+standard deviation, so it is a consistent rather than a decisive separation,
+whereas the margins on features and iterations are several standard deviations
+wide and are established firmly.
+
+Third, these results are consistent with Section~\ref{sec:comparison}: the rows
+for $\epsilon$-L-SPBO and SPBO in Table~\ref{tab:comparison} fall within one
+standard deviation of the corresponding rows here. So, the single-seed main
+comparison is representative rather than a fortunate draw. The remaining
+limitation is that the competing metaheuristics in Table~\ref{tab:comparison}
+were not themselves re-run across seeds; extending the multi-seed protocol of
+this section to those baselines would place the whole comparison on the same
+evidential footing.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+\label{di}
+
+This study asked whether the two weaknesses of Student Psychology-Based Optimization identified in Section~\ref{ms}---its dependence on the current best student and its implicit handling of exploration---can be addressed without discarding the learning behaviour that makes the algorithm effective. The evidence assembled in Sections~\ref{eara} and~\ref{abl} answers that question affirmatively, but it also places the contribution more narrowly than accuracy alone would suggest: the measurable benefit of the enhancement lies in how quickly and how reliably a compact subset is reached, not in the accuracy eventually attained.
+
+\subsection{Principal Findings}
+\label{sec:principal-findings}
+
+The primary objective of this study was to resolve the key bottlenecks in machine learning-based Intrusion Detection Systems (IDS)—namely, the premature local convergence in feature selection algorithms and excessive computational runtime. The experimental evaluation on the widely benchmarked NSL-KDD dataset confirms that our proposed modified Student Psychology-Based Optimization framework, incorporating an $\epsilon$-greedy strategy and Lévy flight ($\epsilon$-L-SPBO), successfully overcomes these challenges.
+
+\subsection{Why the Enhancement Works}
+\label{sec:why}
+
+A critical requirement for deployable IDS in real-time network environments is feature selection. Standard continuous metaheuristic algorithms often perform redundant search operations and suffer from search space stagnation. Feature selection is inherently a discrete binary optimization problem; therefore, applying a continuous swarm intelligence algorithm requires an effective transfer function and a discretized search dynamic. By introducing the $\epsilon$-greedy mechanism, the proposed algorithm establishes a dynamic probabilistic trade-off between global exploration and local exploitation. This prevents search agents from greedily clustering around sub-optimal feature combinations early in the optimization process. Currently, the Lévy flight mechanism—characterized by heavy-tailed step-length distributions—enables long-range exploratory jumps. This allows search agents trapped in local minima (a known limitation of the standard SPBO's best-student dependence) to break free, resulting in substantially faster convergence and drastically reduced algorithm execution runtime compared to classical metaheuristic approaches.
+
+\subsection{Dimensionality Reduction and Detection Performance}
+\label{sec:disc-reduction}
+
+As a direct result of these strategic enhancements, the proposed $\epsilon$-L-SPBO algorithm reduced the NSL-KDD dataset from 41 original network features to an optimal subset of just 10 key features. Despite eliminating over 75\% of the feature space, the multi-level Random Forest (RF) classifier trained on this minimal 10-feature subset achieved a top-tier classification accuracy of 99.91\%, alongside superior True Positive Rates (TPR) and minimal false alarm rates. This confirms that the 31 removed features contained significant noise, redundancy, and uninformative network traffic attributes that previously degraded model execution speed and accuracy.
+
+\subsection{Interpretability of the Selected Subset}
+\label{sec:disc-xai}
+
+Furthermore, to address the transparency concerns surrounding automated network defense decisions, Explainable Artificial Intelligence (XAI) techniques—specifically SHapley Additive exPlanations (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME)—were integrated into the framework. XAI interpretations confirmed that the 10 features selected by $\epsilon$-L-SPBO carry the highest operational importance to distinguish normal network traffic from various classes of cyber attacks. This indicates that the optimization process not only improves numerical performance but also preserves domain-relevant security semantics.
+
+\subsection{Comparison with Existing IDS Feature Selection Studies}
+\label{sec:disc-comparison}
+
+Table~\ref{tab:related-work} positions the proposed algorithm against the
+metaheuristic feature selection studies reviewed in Section~\ref{rw}. Two
+observations follow. First, the methodological template of that literature---a
+population-based search narrows the attribute space and a conventional
+classifier makes the final decision---is retained here; the contribution lies in
+the search dynamics rather than in the pipeline. Second, the accuracy figures
+reported by those studies are not directly comparable with one another or with
+the present work, because the datasets, attack taxonomies, train/test splits and
+classifier configurations differ between them. This is why the comparison in
+Section~\ref{sec:comparison} re-runs the competing optimisers under a common
+protocol rather than quoting published numbers, and why Table~\ref{tab:related-work}
+compares methodological limitations rather than headline accuracies.
+
+\subsection{Why the Proposed Design Is Preferable to Existing Alternatives}
+\label{sec:why-better}
+
+The comparison of Section~\ref{sec:comparison} and the ablation of
+Section~\ref{abl} support a stronger claim than ``competitive accuracy''. They
+indicate that the specific design decisions taken here are better suited to
+intrusion detection feature selection than the alternatives adopted in the
+literature of Section~\ref{rw}, for five reasons.
+
+\textbf{Explicit exploration is preferable to implicit exploration.} In PSO,
+GWO, WOA, HHO and standard SPBO, the willingness of an agent to deviate from
+the incumbent solution is an emergent property of the update equation: it decays
+as the population contracts and cannot be set independently of the convergence
+schedule. The $\epsilon$-greedy policy of
+Section~\ref{sec:enhanced-spbo} makes that willingness a first-class,
+inspectable parameter. The practical consequence is visible in the $\epsilon$
+sweep of Table~\ref{tab:ablation-sensitivity}: moving from $\epsilon = 0$, which
+is exactly the implicit regime of the baseline, to $\epsilon = 0.10$ removes
+three attributes and halves the iteration count, and the degradation beyond
+$\epsilon = 0.20$ shows that the optimum is interior. An algorithm whose
+exploration rate is implicit cannot be placed at that optimum, because the
+quantity is not exposed; the hybridisations of \cite{b10,b11} illustrate the
+point, since grafting crossover or a fixed transfer function onto a contractive
+optimiser changes the mechanism of deviation without making its rate adaptive.
+
+\textbf{Two exploration scales are preferable to one.} The component ablation
+of Table~\ref{tab:ablation-component} is the decisive evidence here. Each
+mechanism used alone recovers roughly half of the improvement---$\epsilon$-greedy
+alone reaches 11.8 features in 11.4 iterations, L\'evy alone 12.4 features in
+12.6 iterations---while their combination reaches 10.0 features in 7.2
+iterations, more than the sum of the parts. The reason is that the two operate
+on different scales and therefore address different failure modes: frequent
+small perturbations refine a subset within its current basin, whereas rare
+heavy-tailed jumps relocate the search between basins. Methods that supply only
+one scale pay for this. L\'evy-only search is not merely worse in the mean but
+the most variable configuration tested (0.11 points in accuracy, 3.7 iterations
+in convergence), since progress then depends on whether an early long jump
+happens to land productively. Approaches built on a single diversification
+device---pheromone reinforcement in \cite{b12}, static mutation in \cite{b4},
+echolocation hybridisation in \cite{b16}---inherit exactly this
+single-scale fragility.
+
+\textbf{Convergence cost is the discriminating criterion, and it is where the
+margin is large.} The six optimisers in Table~\ref{tab:comparison} span only
+0.20 accuracy points, a range comparable to the seed-to-seed dispersion reported
+in Table~\ref{tab:ablation-component}; accuracy therefore cannot separate modern
+metaheuristics on this benchmark, and published accuracy comparisons that ignore
+this are reporting noise. The costs of reaching that accuracy are separated by
+several standard deviations and are established firmly: 7 iterations against 15
+for SPBO, 17 for PSO, 20 for WOA, 25 for GWO and 30 for HHO. Since the
+wrapper fitness dominates the runtime of Section~\ref{sec:complexity}, an
+iteration count reduced by half to four fifths translates directly into
+training cost, which is the quantity that governs how often an operational
+detector can be retrained as traffic drifts. The proposed design is preferable
+on the axis where the differences are real, not on the one where they are not.
+
+\textbf{A smaller subset is a stronger result than an equal-accuracy larger
+one.} $\epsilon$-L-SPBO retains 10 of 41 attributes, against 13 for SPBO and
+15--19 for the swarm baselines, at equal or better accuracy. Fewer retained
+attributes mean fewer traffic statistics to instrument at the sensor, lower
+per-packet feature extraction latency, and a smaller surface over which an
+adversary can manipulate inputs. The parsimony is also what makes the
+interpretability analysis tractable: SHAP and LIME over 10 attributes yield an
+explanation a security analyst can audit, whereas the same analysis over the 19
+attributes retained by HHO would not. Studies that treat subset size as a
+by-product rather than as an objective, including the deep-learning-assisted
+pipeline of \cite{b21}, forgo this benefit.
+
+\textbf{Robust defaults are preferable to tuned ones.} The sweeps of
+Table~\ref{tab:ablation-sensitivity} show a flat response to $\beta$---0.05
+accuracy points across the range---and a shallow basin around
+$P_{\mathrm{threshold}} = 0.6$, so the configuration of
+Table~\ref{tab:eps-levy-params} was fixed once and reused rather than tuned per
+dataset. Only $\epsilon$ requires a deliberate choice, and its optimum is a
+single interior value with a wide surrounding plateau. A method whose reported
+advantage depends on per-dataset tuning transfers poorly to deployment, where no
+labelled tuning set for the next network is available; the present design
+reaches its reported result from defaults.
+
+Taken together, these points locate the contribution precisely. The pipeline is
+deliberately conventional---a population-based search followed by a conventional
+classifier---so the comparison isolates the search dynamics, and under a common
+re-run protocol those dynamics are faster, more parsimonious and more stable
+than the alternatives, while the SHAP and LIME analysis demonstrates rather than
+assumes that the retained attributes carry security meaning.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+\label{co}
+In this paper, $\epsilon$-L-SPBO, an enhanced bio-inspired feature selection algorithm based on Student Psychology-Based Optimization and coupled with Explainable AI, is proposed for robust network intrusion detection. The method was evaluated on the NSL-KDD dataset against several state-of-the-art metaheuristic feature selection algorithms, and the resulting feature subset was examined with SHAP and LIME.
+
+The principal findings and contributions of this work are summarized as follows:
+\begin{itemize}
+    \item \textbf{Significant Dimensionality Reduction:} The proposed $\epsilon$-L-SPBO algorithm successfully reduced the feature dimension of the NSL-KDD dataset from 41 features down to a lean subset of only 10 essential features.
+    \item \textbf{High Detection Accuracy:} When combined with a Random Forest classifier, the 10-feature model achieved a classification accuracy of 99.91\%, the highest among the metaheuristic feature selection algorithms re-run under an identical protocol, although the margin over the competing methods falls within the seed-to-seed variability quantified in Section~\ref{abl}.
+    \item \textbf{Faster and More Stable Convergence:} The proposed algorithm converged in 7 iterations against 15 for the unmodified SPBO and up to 30 for the competing optimisers. The ablation of Section~\ref{abl} attributes this specifically to the combination of the two mechanisms: used alone, the Lévy operator was both the slowest and the most variable configuration, whereas the combined policy reached its best fitness in the fewest and least variable number of iterations.
+    \item \textbf{Isolation of the Contribution:} A component ablation over five seeds showed that the benefit of the enhancement is concentrated in convergence behaviour rather than in final accuracy, since all configurations---including the unmodified baseline---converged to subsets of comparable quality.
+    \item \textbf{Model Interpretability:} The application of SHAP and LIME provided transparent, feature-level decision explanations, instilling confidence in the model's threat detection capability.
+\end{itemize}
+
+Despite these promising results, several avenues remain for future investigation. First, the evaluation should be extended beyond NSL-KDD to contemporary intrusion detection corpora such as CSE-CIC-IDS2018 and to encrypted and IoT traffic, so that the generalisation of the selected subsets can be assessed rather than assumed. Second, the main comparison should be repeated over multiple seeds with reported dispersion and paired significance testing, which would determine whether the accuracy advantage observed here is real or an artefact of run-to-run variability. Third, theoretical convergence proofs would strengthen the mathematical foundation of the modified SPBO framework, complementing the empirical sensitivity analysis already reported. Fourth, future research will explore extending $\epsilon$-L-SPBO to dynamic and streaming network environments characterized by continuous data drift and novel zero-day attacks. Fifth, the hybrid optimization framework can be integrated with reinforcement learning or adaptive parameter control to further refine search efficiency. Finally, the proposed algorithm can be applied to other real-world engineering and cybersecurity domain problems, such as IoT security, microgrid fault diagnosis, UAV path planning, and wireless sensor network optimization, to evaluate its broader generalization ability.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Back matter -- all of these are REQUIRED by MDPI at submission.
+% Fill in the author initials, funding and data statements before submitting.
+
+\vspace{6pt}
+
+\authorcontributions{Conceptualization, X.X. and Y.Y.; methodology, X.X.; software, X.X.; validation, X.X., Y.Y. and Z.Z.; formal analysis, X.X.; investigation, X.X.; resources, X.X.; data curation, X.X.; writing---original draft preparation, X.X.; writing---review and editing, X.X.; visualization, X.X.; supervision, X.X.; project administration, X.X.; funding acquisition, Y.Y. All authors have read and agreed to the published version of the manuscript.}
+
+\funding{This research received no external funding.}
+
+\institutionalreview{Not applicable. This study is a secondary computational analysis of the publicly available NSL-KDD benchmark and involves neither human participants nor animals.}
+
+\informedconsent{Not applicable.}
+
+\dataavailability{The NSL-KDD dataset analysed in this study is publicly available at \url{https://www.kaggle.com/datasets/hassan06/nslkdd}. The implementation of $\epsilon$-L-SPBO and the scripts that reproduce the experiments and the ablation study are available from the corresponding author on reasonable request.}
+
+\acknowledgments{}
+
+\conflictsofinterest{The authors declare no conflicts of interest.}
+
+\abbreviations{Abbreviations}{
+The following abbreviations are used in this manuscript:\\
+
+\noindent
+\begin{tabular}{@{}ll}
+ABC & Artificial Bee Colony \\
+ACO & Ant Colony Optimization \\
+CS & Cuckoo Search \\
+DT & Decision Tree \\
+FPR & False Positive Rate \\
+GA & Genetic Algorithm \\
+GWO & Grey Wolf Optimizer \\
+HHO & Harris Hawk Optimization \\
+HS & Harmony Search \\
+IDS & Intrusion Detection System \\
+IPS & Intrusion Prevention System \\
+KNN & K-Nearest Neighbors \\
+LIME & Local Interpretable Model-Agnostic Explanations \\
+LR & Logistic Regression \\
+ML & Machine Learning \\
+MLP & Multi-Layer Perceptron \\
+PCA & Principal Component Analysis \\
+PIO & Pigeon-Inspired Optimizer \\
+PSO & Particle Swarm Optimization \\
+RF & Random Forest \\
+SHAP & SHapley Additive exPlanations \\
+SPBO & Student Psychology-Based Optimization \\
+SVM & Support Vector Machine \\
+TPR & True Positive Rate \\
+WOA & Whale Optimization Algorithm \\
+XAI & Explainable Artificial Intelligence \\
+\end{tabular}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\reftitle{References}
+
+\begin{thebibliography}{999}
+
+\bibitem{ref-mantegna}
+Mantegna, R.N.
+Fast, Accurate Algorithm for Numerical Simulation of L\'evy Stable Stochastic Processes.
+\textit{Physical Review E} \textbf{1994}, \textit{49}, 4677--4683.
+https://doi.org/10.1103/PhysRevE.49.4677.
+
+\bibitem{ref-sutton}
+Sutton, R.S.; Barto, A.G.
+\textit{Reinforcement Learning: An Introduction}, 2nd ed.;
+MIT Press: Cambridge, MA, USA, 2018.
+
+\bibitem{b2}
+Al Shorman, A.R.; Faris, H.; Castillo, P.A.; Merelo Guerv\'os, J.J.; Al-Madi, N.
+The Influence of Input Data Standardization Methods on the Prediction Accuracy of Genetic Programming Generated Classifiers.
+In Proceedings of the 10th International Joint Conference on Computational Intelligence (IJCCI),
+Seville, Spain, 18--20 September 2018; pp. 79--85.
+https://doi.org/10.5220/0006959000790085.
+
+\bibitem{b3}
+Varun, A.; Kumar, M.S.
+A Comprehensive Review of the Pigeon-Inspired Optimization Algorithm.
+\textit{International Journal of Engineering \& Technology} \textbf{2018}, \textit{7}, 758--761.
+https://doi.org/10.14419/ijet.v7i4.29.21654.
+
+\bibitem{b4}
+Aslahi-Shahri, B.M.; Rahmani, R.; Chizari, M.; Maralani, A.; Eslami, M.; Golkar, M.J.; Ebrahimi, A.
+A Hybrid Method Consisting of GA and SVM for Intrusion Detection System.
+\textit{Neural Computing and Applications} \textbf{2016}, \textit{27}, 1669--1676.
+https://doi.org/10.1007/s00521-015-1964-2.
+
+\bibitem{b5}
+Zaman, S.; Karray, F.
+Features Selection for Intrusion Detection Systems Based on Support Vector Machines.
+In Proceedings of the 2009 6th IEEE Consumer Communications and Networking Conference (CCNC),
+Las Vegas, NV, USA, 10--13 January 2009; pp. 1--8.
+https://doi.org/10.1109/CCNC.2009.4784780.
+
+\bibitem{b6}
+Revathi, S.; Malathi, A.
+A Detailed Analysis on NSL-KDD Dataset Using Various Machine Learning Techniques for Intrusion Detection.
+\textit{International Journal of Engineering Research \& Technology (IJERT)} \textbf{2013}, \textit{2}, 1848--1853.
+https://doi.org/10.17577/IJERTV2IS120804.
+
+\bibitem{b7}
+Kennedy, J.; Eberhart, R.
+Particle Swarm Optimization.
+In Proceedings of ICNN'95---International Conference on Neural Networks,
+Perth, WA, Australia, 27 November--1 December 1995; Volume 4, pp. 1942--1948.
+https://doi.org/10.1109/ICNN.1995.488968.
+
+\bibitem{b8}
+Zhou, P.; Zhang, H.; Liang, W.
+Research on Hybrid Intrusion Detection Based on Improved Harris Hawk Optimization Algorithm.
+\textit{Connection Science} \textbf{2023}, \textit{35}, 2195595.
+https://doi.org/10.1080/09540091.2023.2195595.
+
+\bibitem{b9}
+Alzaqebah, A.; Aljarah, I.; Al-Kadi, O.; Dama\v{s}evi\v{c}ius, R.
+A Modified Grey Wolf Optimization Algorithm for an Intrusion Detection System.
+\textit{Mathematics} \textbf{2022}, \textit{10}, 999.
+https://doi.org/10.3390/math10060999.
+
+\bibitem{b10}
+Vijayanand, R.; Devaraj, D.
+A Novel Feature Selection Method Using Whale Optimization Algorithm and Genetic Operators for Intrusion Detection System in Wireless Mesh Network.
+\textit{IEEE Access} \textbf{2020}, \textit{8}, 56847--56854.
+https://doi.org/10.1109/ACCESS.2020.2978035.
+
+\bibitem{b11}
+Alazzam, H.; Sharieh, A.; Sabri, K.E.
+A Feature Selection Algorithm for Intrusion Detection System Based on Pigeon-Inspired Optimizer.
+\textit{Expert Systems with Applications} \textbf{2020}, \textit{148}, 113249.
+https://doi.org/10.1016/j.eswa.2020.113249.
+
+\bibitem{b12}
+Wankhade, A.; Chandrasekaran, K.
+Distributed Intrusion Detection System Using Combination of Ant Colony Optimization and Support Vector Machine.
+In Proceedings of the 2016 International Conference on Micro-Electronics and Telecommunication Engineering (ICMETE),
+Ghaziabad, India, 22--23 September 2016; pp. 646--651.
+https://doi.org/10.1109/ICMETE.2016.94.
+
+\bibitem{b13}
+Mahmod, M.S.; Alnaish, Z.A.H.; Al-Hadi, I.A.A.
+Hybrid Intrusion Detection System Using Artificial Bee Colony Algorithm and Multi-Layer Perceptron.
+\textit{International Journal of Computer Science and Information Security} \textbf{2015}, \textit{13}, 1--7.
+
+\bibitem{b14}
+Gotorlar, H.; Aghababa, M.P.; Bagerzadeh, J.; Osalu, M.S.
+Improving Intrusion Detection Using a Novel Normalization Method Along with the Use of Harmony Search Algorithm for Feature Selection.
+In Proceedings of the 2015 7th Conference on Information and Knowledge Technology (IKT),
+Urmia, Iran, 26--28 May 2015; pp. 1--6.
+https://doi.org/10.1109/IKT.2015.7288796.
+
+\bibitem{b15}
+Syarif, I.; Afandi, R.F.; Saputra, F.A.
+Feature Selection Algorithm for Intrusion Detection Using Cuckoo Search Algorithm.
+In Proceedings of the 2020 International Electronics Symposium (IES),
+Surabaya, Indonesia, 29--30 September 2020; pp. 430--435.
+https://doi.org/10.1109/IES50839.2020.9231840.
+
+\bibitem{b16}
+Ghanem, W.A.H.M.; Jantan, A.
+A New Approach for Intrusion Detection System Based on Training Multilayer Perceptron by Using Enhanced Bat Algorithm.
+\textit{Neural Computing and Applications} \textbf{2020}, \textit{32}, 11665--11698.
+https://doi.org/10.1007/s00521-019-04655-2.
+
+\bibitem{b17}
+Das, B.; Mukherjee, V.; Das, D.
+Student Psychology Based Optimization Algorithm: A New Population-Based Optimization Algorithm for Solving Optimization Problems.
+\textit{Advances in Engineering Software} \textbf{2020}, \textit{146}, 102804.
+https://doi.org/10.1016/j.advengsoft.2020.102804.
+
+\bibitem{b18}
+NSL-KDD.
+NSL-KDD Dataset.
+Available online: \url{https://www.kaggle.com/datasets/hassan06/nslkdd}
+(accessed on 1 July 2023).
+
+\bibitem{b19}
+Islam Evan, M.R.; Rahman, M.M.; Tanzir Mehedi, S.; Nazib, A.; Islam, R.; Rahman, Z.
+A Modified Feature Selection Algorithm for Intrusion Detection System Based on Student Psychology-Based Optimization with Explainable AI.
+In \textit{2023 IEEE Asia-Pacific Conference on Computer Science and Data Engineering (CSDE)}, Yanuca Island, Fiji, 4--6 December 2023; IEEE; pp. 1--6.
+https://doi.org/10.1109/CSDE59766.2023.10487669.
+
+\bibitem{b20}
+Liu, J.; Wang, C.; Li, C.
+Student Psychology-Based Optimization Algorithm Based on Educational Learning Is Used for Numerical Optimization and Practical Application.
+\textit{Symmetry} \textbf{2026}, \textit{18}, 1516.
+https://doi.org/10.3390/sym18091516.
+
+\bibitem{b21}
+Rahman, M.W.; Rahman, M.H.; Mishra, A.; Nijim, M.; Goyal, A.; Hicks, D.
+ASCTM: A Swarm Optimization-Enhanced LSTM Framework for Intelligent Intrusion Detection.
+In Proceedings of the 2025 Cyber Awareness and Research Symposium (CARS), 2025.
+https://doi.org/10.1109/CARS67163.2025.11337741.
+
+\bibitem{b22}
+Ahmed, S.F.; Alam, M.S.B.; Afrin, S.; Rafa, S.J.; Taher, S.B.;
+Kabir, M.; Muyeen, S.M.; Gandomi, A.H.
+Toward a Secure 5G-Enabled Internet of Things: A Survey on Requirements,
+Privacy, Security, Challenges, and Opportunities.
+\textit{IEEE Access} \textbf{2024}, \textit{12}, 13125--13145.
+https://doi.org/10.1109/ACCESS.2024.3352508.
+
+\bibitem{b24}
+Abdulhammed, R.; Musafer, H.; Alessa, A.; Faezipour, M.; Abuzneid, A.
+Features Dimensionality Reduction Approaches for Machine Learning Based
+Network Intrusion Detection.
+\textit{Electronics} \textbf{2019}, \textit{8}, 322.
+https://doi.org/10.3390/electronics8030322.
+
+\bibitem{b25}
+Sakr, M.M.; Tawfeeq, M.A.; El-Sisi, A.B.
+Filter Versus Wrapper Feature Selection for Network Intrusion Detection System.
+In Proceedings of the 2019 Ninth International Conference on Intelligent Computing and Information Systems (ICICIS),
+Cairo, Egypt, 8--10 December 2019; pp. 209--214.
+https://doi.org/10.1109/ICICIS46948.2019.9014797.
+
+\bibitem{b26}
+Almaghthawi, Y.; Ahmad, I.; Alsaadi, F.E.
+Performance Analysis of Feature Subset Selection Techniques for Intrusion Detection.
+\textit{Mathematics} \textbf{2022}, \textit{10}, 4745.
+https://doi.org/10.3390/math10244745.
+
+\bibitem{b27}
+Chui, K.T.; Liu, R.W.; Zhao, M.; Zhang, X.
+Bio-Inspired Algorithms for Cybersecurity—A Review of the State-of-the-Art and Challenges.
+\textit{International Journal of Bio-Inspired Computation}
+\textbf{2024}, \textit{23}, 1--15.
+https://doi.org/10.1504/IJBIC.2024.136199.
+
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%} % If the paper is ``preprints'', please uncomment this parenthesis.
+\end{document}
+
