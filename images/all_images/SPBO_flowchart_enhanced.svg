@@ -1,0 +1,441 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1700" height="1010" viewBox="0 0 1700 1010" font-family="Arial, Helvetica, sans-serif">
+
+  <defs>
+    <marker id="ah" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111111"/></marker>
+    <marker id="ahs" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="3.6" markerHeight="3.6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111111"/></marker>
+    <marker id="ahd" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#444444"/></marker>
+    <marker id="ahg" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#15803d"/></marker>
+    <marker id="mkGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+    <marker id="mkBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker>
+    <marker id="mkOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b45309"/></marker>
+    <marker id="mkPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b21a8"/></marker>
+    <marker id="mkGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker>
+
+    <linearGradient id="gGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8fcf0"/><stop offset="100%" stop-color="#b7edcd"/></linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ecf3ff"/><stop offset="100%" stop-color="#c2daff"/></linearGradient>
+    <linearGradient id="gPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6f0ff"/><stop offset="100%" stop-color="#d9c6fc"/></linearGradient>
+    <linearGradient id="gOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff6e6"/><stop offset="100%" stop-color="#ffdca6"/></linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffefef"/><stop offset="100%" stop-color="#ffc2c2"/></linearGradient>
+    <linearGradient id="gTeal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e4fbf8"/><stop offset="100%" stop-color="#a9e9e2"/></linearGradient>
+    <linearGradient id="gGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f9fc"/><stop offset="100%" stop-color="#dde2ea"/></linearGradient>
+    <linearGradient id="gCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6"/><stop offset="55%" stop-color="#c4b5fd"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+
+    <filter id="sh" x="-25%" y="-25%" width="160%" height="160%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.20"/>
+    </filter>
+
+    <!-- reusable pictograms -->
+    <g id="icoStudent">
+      <circle cx="0" cy="-7" r="7.5" fill="#ffffff" stroke="#3b0764" stroke-width="2.2"/>
+      <path d="M-12,12 a12,13 0 0 1 24,0 z" fill="#ffffff" stroke="#3b0764" stroke-width="2.2"/>
+      <path d="M-13,-9 a13,10 0 0 1 26,0 l-4,-1 a9,7 0 0 0 -18,0 z" fill="#3b0764"/>
+    </g>
+    <g id="icoTrophy">
+      <path d="M-9,-11 h18 v7 a9,11 0 0 1 -18,0 z" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+      <path d="M-9,-9 h-5 a6,6 0 0 0 6,8 M9,-9 h5 a6,6 0 0 1 -6,8" fill="none" stroke="#92400e" stroke-width="2"/>
+      <path d="M0,2 v6 M-6,10 h12" stroke="#92400e" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="icoUp">
+      <circle cx="0" cy="0" r="11" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+      <path d="M0,-6 l6,7 h-3.5 v5 h-5 v-5 H-6 z" fill="#ffffff"/>
+    </g>
+    <g id="icoBars">
+      <rect x="-11" y="-2" width="6" height="13" rx="1.5" fill="#f59e0b" stroke="#92400e" stroke-width="1.6"/>
+      <rect x="-3" y="-8" width="6" height="19" rx="1.5" fill="#f59e0b" stroke="#92400e" stroke-width="1.6"/>
+      <rect x="5" y="-5" width="6" height="16" rx="1.5" fill="#f59e0b" stroke="#92400e" stroke-width="1.6"/>
+    </g>
+    <g id="icoDice">
+      <rect x="-11" y="-11" width="22" height="22" rx="5" fill="#a855f7" stroke="#3b0764" stroke-width="2"/>
+      <circle cx="-5" cy="-5" r="2.4" fill="#ffffff"/><circle cx="0" cy="0" r="2.4" fill="#ffffff"/>
+      <circle cx="5" cy="5" r="2.4" fill="#ffffff"/>
+    </g>
+    <g id="icoCheck">
+      <circle cx="0" cy="0" r="11" fill="#22c55e" stroke="#15803d" stroke-width="2"/>
+      <path d="M-5,0 l3.5,4 L6,-4.5" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="icoCross">
+      <circle cx="0" cy="0" r="11" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
+      <path d="M-4.5,-4.5 L4.5,4.5 M4.5,-4.5 L-4.5,4.5" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="icoGauge">
+      <path d="M-16,6 a16,16 0 0 1 32,0" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-16,6 a16,16 0 0 1 8,-13.8" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+      <path d="M16,6 a16,16 0 0 0 -8,-13.8" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0,6 L8,-5" stroke="#0f172a" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="0" cy="6" r="3" fill="#0f172a"/>
+    </g>
+    <g id="icoMag">
+      <circle cx="-2" cy="-2" r="9" fill="none" stroke="#3b0764" stroke-width="2.6"/>
+      <path d="M5,5 L12,12" stroke="#3b0764" stroke-width="3.4" stroke-linecap="round"/>
+    </g>
+    <g id="icoScale">
+      <path d="M0,-12 v22 M-13,10 h26" stroke="#334155" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M-13,-7 h26" stroke="#334155" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M-13,-7 l-6,10 h12 z" fill="#93c5fd" stroke="#334155" stroke-width="2"/>
+      <path d="M13,-7 l-6,10 h12 z" fill="#fca5a5" stroke="#334155" stroke-width="2"/>
+    </g>
+    <g id="icoSliders">
+      <g stroke="#0b2f7a" stroke-width="2.6" stroke-linecap="round">
+        <path d="M-14,-8 h28 M-14,0 h28 M-14,8 h28"/></g>
+      <circle cx="-4" cy="-8" r="4" fill="#ffffff" stroke="#0b2f7a" stroke-width="2.4"/>
+      <circle cx="7" cy="0" r="4" fill="#ffffff" stroke="#0b2f7a" stroke-width="2.4"/>
+      <circle cx="-8" cy="8" r="4" fill="#ffffff" stroke="#0b2f7a" stroke-width="2.4"/>
+    </g>
+    <g id="icoBounds">
+      <path d="M-14,-10 h28 M-14,10 h28" stroke="#064e47" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0,-8 v16" stroke="#064e47" stroke-width="2.4"/>
+      <path d="M0,-10 l-4,5 h8 z M0,10 l-4,-5 h8 z" fill="#064e47"/>
+    </g>
+    <g id="icoLoop">
+      <path d="M-11,2 a11,11 0 1 1 4,8.4" fill="none" stroke="#7c2d12" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-11,-5 l-4,8 l8,0 z" fill="#7c2d12"/>
+    </g>
+    <g id="icoDoc">
+      <path d="M-13,-17 h17 l9,9 v25 h-26 z" fill="#ffffff" stroke="#3b0764" stroke-width="2.4"/>
+      <path d="M4,-17 v9 h9" fill="#ddd6fe" stroke="#3b0764" stroke-width="2.4"/>
+      <path d="M-8,-2 h16 M-8,5 h16 M-8,12 h10" stroke="#a78bfa" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <g id="icoCoin">
+      <circle cx="0" cy="0" r="11" fill="#fde68a" stroke="#b45309" stroke-width="2.2"/>
+      <path d="M-4,-4 h8 M0,-4 v9 M-4,5 h8" stroke="#b45309" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect x="0" y="0" width="1700" height="1010" fill="#ffffff"/>
+
+  <!-- ==================== STAGE 1 : INITIALIZATION ==================== -->
+  <g id="stage-initialization">
+    <rect x="30" y="140" width="292" height="362" rx="14" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="9 7"/>
+    <text x="176" y="528" font-size="19" font-weight="bold" text-anchor="middle" fill="#111111">Initialization</text>
+
+    <g filter="url(#sh)">
+      <rect x="52" y="156" width="248" height="74" rx="10" fill="#ffffff" stroke="#6b21a8" stroke-width="2.5"/></g>
+    <g transform="translate(86,193)">
+      <path d="M-18,-20 a18,7 0 0 1 36,0 v40 a18,7 0 0 1 -36,0 z" fill="url(#gCyl)" stroke="#4c1d95" stroke-width="2.2"/>
+      <ellipse cx="0" cy="-20" rx="18" ry="7" fill="#ddd6fe" stroke="#4c1d95" stroke-width="2.2"/>
+      <path d="M-18,-6 a18,7 0 0 0 36,0 M-18,7 a18,7 0 0 0 36,0" fill="none" stroke="#4c1d95" stroke-width="1.8"/>
+    </g>
+    <text x="120" y="188" font-size="15" font-weight="bold" fill="#3b0764">Dataset</text>
+    <text x="120" y="208" font-size="13" fill="#3b0764">D candidate features</text>
+
+    <g filter="url(#sh)">
+      <rect x="52" y="242" width="248" height="88" rx="10" fill="url(#gPurple)" stroke="#6b21a8" stroke-width="2.5"/></g>
+    <g transform="translate(80,276) scale(0.85)"><use xlink:href="#icoStudent"/></g>
+    <g transform="translate(74,308) scale(0.55)"><use xlink:href="#icoStudent"/></g>
+    <g transform="translate(94,308) scale(0.55)"><use xlink:href="#icoStudent"/></g>
+    <text x="124" y="272" font-size="15" font-weight="bold" fill="#3b0764">Initialize population</text>
+    <text x="124" y="292" font-size="15" font-weight="bold" fill="#3b0764">of students</text>
+    <text x="124" y="314" font-size="13" font-style="italic" fill="#3b0764">Xi ~ U(min, max),  i = 1…N</text>
+
+    <g filter="url(#sh)">
+      <rect x="52" y="342" width="248" height="82" rx="10" fill="url(#gBlue)" stroke="#1d4ed8" stroke-width="2.5"/></g>
+    <g transform="translate(82,383)"><use xlink:href="#icoSliders"/></g>
+    <text x="196" y="366" font-size="15" font-weight="bold" text-anchor="middle" fill="#0b2f7a">Set parameters</text>
+    <text x="196" y="388" font-size="13" text-anchor="middle" fill="#0b2f7a" font-family="Times New Roman, serif">population N,  iterations T,  Th</text>
+    <text x="196" y="408" font-size="13" text-anchor="middle" fill="#0b2f7a" font-family="Times New Roman, serif">&#949; = 0.1,  &#946; = 1.5,  A = 1.0</text>
+
+    <g filter="url(#sh)">
+      <rect x="52" y="436" width="248" height="52" rx="10" fill="url(#gTeal)" stroke="#0f766e" stroke-width="2.5"/></g>
+    <g transform="translate(82,462) scale(0.9)"><use xlink:href="#icoBounds"/></g>
+    <text x="200" y="458" font-size="14" font-weight="bold" text-anchor="middle" fill="#064e47">Upper / lower bounds</text>
+    <text x="200" y="477" font-size="13" text-anchor="middle" fill="#064e47" font-family="Times New Roman, serif">[ min , max ]</text>
+  </g>
+
+  <path d="M322,300 L374,300" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== LOOP GATE ==================== -->
+  <g id="loop-gate">
+    <g filter="url(#sh)">
+      <path d="M457,238 L536,300 L457,362 L378,300 z" fill="url(#gOrange)" stroke="#b45309" stroke-width="2.5"/></g>
+    <g transform="translate(457,282) scale(0.8)"><use xlink:href="#icoLoop"/></g>
+    <text x="457" y="332" font-size="19" font-weight="bold" text-anchor="middle" fill="#7c2d12" font-family="Times New Roman, serif">T &gt; 0 ?</text>
+    <text x="555" y="284" font-size="14" font-weight="bold" text-anchor="middle" fill="#15803d">Yes</text>
+  </g>
+  <path d="M536,300 L573,300" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== CALL-OUT A : LEVY FLIGHT ==================== -->
+  <g id="callout-levy">
+    <rect x="620" y="18" width="430" height="104" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="640" y="44" font-size="14" font-weight="bold" fill="#7c3aed">L&#233;vy flight step  (Mantegna)</text>
+    <text x="640" y="74" font-size="17" font-weight="bold" fill="#111111" font-family="Times New Roman, serif">L&#233;vy(&#946;) = A &#183; u / |v|<tspan dy="-7" font-size="12">1/&#946;</tspan><tspan dy="7"></tspan></text>
+    <text x="640" y="100" font-size="13" fill="#111111" font-family="Times New Roman, serif">u ~ N(0, &#963;<tspan dy="-5" font-size="10">2</tspan><tspan dy="5">),  v ~ N(0, 1),  &#946; = 1.5,  A = 1.0</tspan></text>
+    <g transform="translate(958,34) scale(1.15)">
+      <path d="M0,50 l10,-8 l-6,-10 l12,-4 l4,9 l7,-3 l-3,-11 l22,-9 l5,7"
+            fill="none" stroke="#7c3aed" stroke-width="2" stroke-linejoin="round" marker-end="url(#mkPurple)"/>
+      <g fill="#7c3aed">
+        <circle cx="0" cy="50" r="2.4"/><circle cx="10" cy="42" r="2"/><circle cx="16" cy="28" r="2"/>
+        <circle cx="27" cy="26" r="2"/><circle cx="34" cy="23" r="2"/></g>
+    </g>
+  </g>
+  <path d="M1052,70 L1092,70" stroke="#111111" stroke-width="2.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== CALL-OUT B : EPSILON-GREEDY ==================== -->
+  <g id="callout-eps">
+    <rect x="1094" y="10" width="576" height="120" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2" stroke-dasharray="8 6"/>
+    <g transform="translate(1124,40) scale(0.8)"><use xlink:href="#icoCoin"/></g>
+    <text x="1148" y="46" font-size="14" font-weight="bold" fill="#b45309">&#949;-greedy exploration control  (&#949; = 0.1)</text>
+
+    <!-- curly brace -->
+    <path d="M1196,64 q-10,0 -10,11 v6 q0,11 -10,11 q10,0 10,11 v6 q0,11 10,11"
+          fill="none" stroke="#111111" stroke-width="2"/>
+    <text x="1130" y="102" font-size="16" font-weight="bold" fill="#111111" font-family="Times New Roman, serif">Xi<tspan dy="-6" font-size="11">t+1</tspan><tspan dy="6"> =</tspan></text>
+
+    <text x="1208" y="80" font-size="13.5" fill="#111111" font-family="Times New Roman, serif">exploitation update, eq. (1)&#8211;(4)</text>
+    <text x="1208" y="112" font-size="13.5" fill="#111111" font-family="Times New Roman, serif">Xi<tspan dy="-5" font-size="10">t</tspan><tspan dy="5"> + L&#233;vy(&#946;) &#8212; long random jump</tspan></text>
+    <text x="1468" y="80" font-size="13.5" font-weight="bold" fill="#15803d" font-family="Times New Roman, serif">if  rand &#8805; &#949;   (exploit)</text>
+    <text x="1468" y="112" font-size="13.5" font-weight="bold" fill="#7c3aed" font-family="Times New Roman, serif">if  rand &lt; &#949;    (explore)</text>
+  </g>
+  <path d="M1250,132 L1250,176" stroke="#111111" stroke-width="2.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== STAGE 2 : CATEGORY UPDATE ==================== -->
+  <g id="stage-category">
+    <rect x="576" y="162" width="770" height="352" rx="14" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="9 7"/>
+    <text x="850" y="540" font-size="19" font-weight="bold" text-anchor="middle" fill="#111111">Check category of the students &#183; update X</text>
+
+    <g filter="url(#sh)">
+      <rect x="600" y="180" width="720" height="38" rx="8" fill="url(#gGray)" stroke="#334155" stroke-width="2.5"/></g>
+    <text x="960" y="205" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#0f172a">Rank population by fitness &#8594; assign category &#8594; apply &#949;-greedy update</text>
+
+    <!-- ============ BEST STUDENT ============ -->
+    <g filter="url(#sh)">
+      <rect x="600" y="234" width="168" height="206" rx="10" fill="url(#gGreen)" stroke="#15803d" stroke-width="2.5"/></g>
+    <g transform="translate(666,266) scale(0.78)"><use xlink:href="#icoStudent"/></g>
+    <g transform="translate(702,264) scale(0.92)"><use xlink:href="#icoTrophy"/></g>
+    <text x="684" y="308" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#064e2b">Best Student</text>
+    <rect x="610" y="316" width="148" height="19" rx="9.5" fill="#15803d"/>
+    <text x="684" y="330" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#ffffff">rank 1  &#183;  best fitness</text>
+    <!-- thumbnail : fine local refinement around the best -->
+    <rect x="612" y="342" width="144" height="60" rx="5" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+    <g fill="#94a3b8">
+      <circle cx="632" cy="386" r="2.6"/><circle cx="652" cy="366" r="2.6"/><circle cx="666" cy="390" r="2.6"/>
+      <circle cx="690" cy="358" r="2.6"/><circle cx="706" cy="382" r="2.6"/></g>
+    <circle cx="730" cy="360" r="10" fill="none" stroke="#15803d" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <circle cx="730" cy="360" r="4.6" fill="#22c55e" stroke="#15803d" stroke-width="1.6"/>
+    <path d="M722,368 q10,8 16,-2" fill="none" stroke="#15803d" stroke-width="1.7" marker-end="url(#mkGreen)"/>
+    <text x="684" y="418" font-size="12.5" text-anchor="middle" fill="#064e2b" font-family="Times New Roman, serif">Modify Xi by eq. (1)</text>
+    <text x="684" y="433" font-size="11" text-anchor="middle" fill="#166534">self-study &#183; small local step</text>
+
+    <!-- ============ GOOD STUDENT ============ -->
+    <g filter="url(#sh)">
+      <rect x="784" y="234" width="168" height="206" rx="10" fill="url(#gBlue)" stroke="#1d4ed8" stroke-width="2.5"/></g>
+    <g transform="translate(850,266) scale(0.78)"><use xlink:href="#icoStudent"/></g>
+    <g transform="translate(886,266) scale(0.92)"><use xlink:href="#icoUp"/></g>
+    <text x="868" y="308" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#0b2f7a">Good Student</text>
+    <rect x="794" y="316" width="148" height="19" rx="9.5" fill="#1d4ed8"/>
+    <text x="868" y="330" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#ffffff">fitness better than mean</text>
+    <!-- thumbnail : pulled toward the best -->
+    <rect x="796" y="342" width="144" height="60" rx="5" fill="#ffffff" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="916" cy="358" r="4.6" fill="#22c55e" stroke="#15803d" stroke-width="1.6"/>
+    <text x="916" y="350" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#15803d">best</text>
+    <g fill="#60a5fa" stroke="#1d4ed8" stroke-width="1.2">
+      <circle cx="812" cy="388" r="3.2"/><circle cx="834" cy="372" r="3.2"/><circle cx="852" cy="390" r="3.2"/><circle cx="876" cy="374" r="3.2"/></g>
+    <g fill="none" stroke="#1d4ed8" stroke-width="1.6" marker-end="url(#mkBlue)">
+      <path d="M816,385 L840,374"/><path d="M838,369 L862,362"/><path d="M856,387 L878,377"/><path d="M880,371 L900,362"/></g>
+    <text x="868" y="418" font-size="12.5" text-anchor="middle" fill="#0b2f7a" font-family="Times New Roman, serif">Modify Xi by eq. (2a / 2b)</text>
+    <text x="868" y="433" font-size="11" text-anchor="middle" fill="#1e40af">imitates the best student</text>
+
+    <!-- ============ AVERAGE STUDENT ============ -->
+    <g filter="url(#sh)">
+      <rect x="968" y="234" width="168" height="206" rx="10" fill="url(#gOrange)" stroke="#b45309" stroke-width="2.5"/></g>
+    <g transform="translate(1034,266) scale(0.78)"><use xlink:href="#icoStudent"/></g>
+    <g transform="translate(1072,266) scale(0.92)"><use xlink:href="#icoBars"/></g>
+    <text x="1052" y="308" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#7c2d12">Average Student</text>
+    <rect x="978" y="316" width="148" height="19" rx="9.5" fill="#b45309"/>
+    <text x="1052" y="330" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#ffffff">fitness worse than mean</text>
+    <!-- thumbnail : contraction toward the group mean -->
+    <rect x="980" y="342" width="144" height="60" rx="5" fill="#ffffff" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="1052" cy="372" r="16" fill="none" stroke="#b45309" stroke-width="1.3" stroke-dasharray="3 3"/>
+    <path d="M1047,367 L1057,377 M1057,367 L1047,377" stroke="#b45309" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="1052" y="396" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#b45309">group mean</text>
+    <g fill="#fbbf24" stroke="#b45309" stroke-width="1.2">
+      <circle cx="996" cy="356" r="3.2"/><circle cx="1004" cy="386" r="3.2"/><circle cx="1104" cy="358" r="3.2"/><circle cx="1110" cy="384" r="3.2"/></g>
+    <g fill="none" stroke="#b45309" stroke-width="1.6" marker-end="url(#mkOrange)">
+      <path d="M1001,358 L1030,366"/><path d="M1009,384 L1034,377"/><path d="M1099,359 L1072,366"/><path d="M1105,382 L1072,377"/></g>
+    <text x="1052" y="418" font-size="12.5" text-anchor="middle" fill="#7c2d12" font-family="Times New Roman, serif">Modify Xi by eq. (3)</text>
+    <text x="1052" y="433" font-size="11" text-anchor="middle" fill="#92400e">moves toward group mean</text>
+
+    <!-- ============ RANDOM STUDENT ============ -->
+    <g filter="url(#sh)">
+      <rect x="1152" y="234" width="168" height="206" rx="10" fill="url(#gPurple)" stroke="#6b21a8" stroke-width="2.5"/></g>
+    <g transform="translate(1218,266) scale(0.78)"><use xlink:href="#icoStudent"/></g>
+    <g transform="translate(1256,266) scale(0.92)"><use xlink:href="#icoDice"/></g>
+    <text x="1236" y="308" font-size="15.5" font-weight="bold" text-anchor="middle" fill="#3b0764">Random Student</text>
+    <rect x="1162" y="316" width="148" height="19" rx="9.5" fill="#6b21a8"/>
+    <text x="1236" y="330" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#ffffff">any rank  &#183;  self-study</text>
+    <!-- thumbnail : uniform re-scatter inside the bounds -->
+    <rect x="1164" y="342" width="144" height="60" rx="5" fill="#ffffff" stroke="#6b21a8" stroke-width="1.5"/>
+    <rect x="1172" y="348" width="128" height="48" rx="3" fill="none" stroke="#c4b5fd" stroke-width="1.3" stroke-dasharray="4 3"/>
+    <text x="1236" y="357" font-size="8" font-weight="bold" text-anchor="middle" fill="#6b21a8">[ min , max ]</text>
+    <g fill="#c084fc" stroke="#6b21a8" stroke-width="1.2">
+      <circle cx="1196" cy="380" r="3.2"/><circle cx="1240" cy="372" r="3.2"/><circle cx="1272" cy="386" r="3.2"/></g>
+    <g fill="none" stroke="#6b21a8" stroke-width="1.6" marker-end="url(#mkPurple)">
+      <path d="M1198,377 L1222,364"/><path d="M1240,376 L1230,390"/><path d="M1274,383 L1290,366"/></g>
+    <text x="1236" y="418" font-size="12.5" text-anchor="middle" fill="#3b0764" font-family="Times New Roman, serif">Modify Xi by eq. (4)</text>
+    <text x="1236" y="433" font-size="11" text-anchor="middle" fill="#6b21a8">uniform random re-position</text>
+
+    <!-- merge bar -->
+    <path d="M684,442 L684,464 M868,442 L868,464 M1052,442 L1052,464 M1236,442 L1236,464"
+          stroke="#111111" stroke-width="2.5" fill="none"/>
+    <path d="M684,464 L1236,464" stroke="#111111" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- merged population -> fitness evaluation -->
+  <path d="M1236,464 L1440,464 L1440,332" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== STAGE 3 : FITNESS ==================== -->
+  <g id="stage-fitness">
+    <g filter="url(#sh)">
+      <rect x="1380" y="188" width="272" height="140" rx="12" fill="url(#gTeal)" stroke="#0f766e" stroke-width="2.5"/></g>
+    <g transform="translate(1414,228)"><use xlink:href="#icoGauge"/></g>
+    <text x="1534" y="220" font-size="16" font-weight="bold" text-anchor="middle" fill="#064e47">Evaluate performance</text>
+    <text x="1534" y="242" font-size="13" text-anchor="middle" fill="#064e47" font-family="Times New Roman, serif">f (Xi) &#8212; benchmark function</text>
+    <line x1="1400" y1="266" x2="1632" y2="266" stroke="#0f766e" stroke-width="1.5"/>
+    <g transform="translate(1416,298)"><use xlink:href="#icoTrophy"/></g>
+    <text x="1544" y="303" font-size="15" font-weight="bold" text-anchor="middle" fill="#064e47">Update best performance</text>
+    <path d="M1560,328 L1560,504" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- ==================== STAGE 4 : BINARY CONVERSION ==================== -->
+  <g id="stage-binary">
+    <rect x="1075" y="508" width="595" height="338" rx="14" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="9 7"/>
+    <text x="1372" y="872" font-size="19" font-weight="bold" text-anchor="middle" fill="#111111">Binary conversion &amp; feature selection</text>
+
+    <g filter="url(#sh)">
+      <rect x="1385" y="518" width="262" height="60" rx="10" fill="url(#gGray)" stroke="#334155" stroke-width="2.5"/></g>
+    <g transform="translate(1414,548) scale(0.76)"><use xlink:href="#icoScale"/></g>
+    <text x="1544" y="542" font-size="15" font-weight="bold" text-anchor="middle" fill="#0f172a">Compare best fitness</text>
+    <text x="1544" y="564" font-size="13" text-anchor="middle" fill="#0f172a" font-family="Times New Roman, serif">with threshold Th</text>
+
+    <g filter="url(#sh)">
+      <path d="M1516,610 L1610,662 L1516,714 L1422,662 z" fill="url(#gOrange)" stroke="#b45309" stroke-width="2.5"/></g>
+    <text x="1516" y="658" font-size="15" font-weight="bold" text-anchor="middle" fill="#7c2d12" font-family="Times New Roman, serif">Xi &#8805; Th ?</text>
+    <text x="1516" y="680" font-size="12" text-anchor="middle" fill="#7c2d12">binary conversion</text>
+    <path d="M1516,578 L1516,606" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#ahs)"/>
+
+    <!-- shared trunk from the diamond's left vertex, then split -->
+    <path d="M1422,662 L1396,662" stroke="#111111" stroke-width="3" fill="none"/>
+    <path d="M1396,662 L1396,622 L1364,622" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#ah)"/>
+    <path d="M1396,662 L1396,712 L1364,712" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#ah)"/>
+    <text x="1378" y="612" font-size="14" font-weight="bold" text-anchor="middle" fill="#15803d">Yes</text>
+    <text x="1378" y="736" font-size="14" font-weight="bold" text-anchor="middle" fill="#b91c1c">No</text>
+
+    <g filter="url(#sh)">
+      <rect x="1182" y="588" width="180" height="68" rx="10" fill="url(#gGreen)" stroke="#15803d" stroke-width="2.5"/></g>
+    <g transform="translate(1208,622) scale(0.8)"><use xlink:href="#icoCheck"/></g>
+    <text x="1286" y="615" font-size="14" font-weight="bold" text-anchor="middle" fill="#064e2b" font-family="Times New Roman, serif">Xbin = 1</text>
+    <text x="1286" y="637" font-size="14" font-weight="bold" text-anchor="middle" fill="#064e2b">Select feature</text>
+
+    <g filter="url(#sh)">
+      <rect x="1182" y="678" width="180" height="68" rx="10" fill="url(#gRed)" stroke="#b91c1c" stroke-width="2.5"/></g>
+    <g transform="translate(1208,712) scale(0.8)"><use xlink:href="#icoCross"/></g>
+    <text x="1286" y="705" font-size="14" font-weight="bold" text-anchor="middle" fill="#7f1d1d" font-family="Times New Roman, serif">Xbin = 0</text>
+    <text x="1286" y="727" font-size="14" font-weight="bold" text-anchor="middle" fill="#7f1d1d">Eliminate feature</text>
+
+    <g filter="url(#sh)">
+      <rect x="1120" y="768" width="280" height="62" rx="10" fill="url(#gGreen)" stroke="#15803d" stroke-width="2.5"/></g>
+    <text x="1260" y="788" font-size="14" font-weight="bold" text-anchor="middle" fill="#064e2b">Selected feature subset</text>
+    <g font-size="12.5" font-weight="bold" text-anchor="middle">
+      <rect x="1166" y="798" width="23" height="21" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="1.8"/><text x="1177.5" y="813" fill="#ffffff">1</text>
+      <rect x="1193" y="798" width="23" height="21" rx="4" fill="#ffffff" stroke="#b91c1c" stroke-width="1.8"/><text x="1204.5" y="813" fill="#b91c1c">0</text>
+      <rect x="1220" y="798" width="23" height="21" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="1.8"/><text x="1231.5" y="813" fill="#ffffff">1</text>
+      <rect x="1247" y="798" width="23" height="21" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="1.8"/><text x="1258.5" y="813" fill="#ffffff">1</text>
+      <rect x="1274" y="798" width="23" height="21" rx="4" fill="#ffffff" stroke="#b91c1c" stroke-width="1.8"/><text x="1285.5" y="813" fill="#b91c1c">0</text>
+      <rect x="1301" y="798" width="23" height="21" rx="4" fill="#ffffff" stroke="#b91c1c" stroke-width="1.8"/><text x="1312.5" y="813" fill="#b91c1c">0</text>
+      <rect x="1328" y="798" width="23" height="21" rx="4" fill="#22c55e" stroke="#15803d" stroke-width="1.8"/><text x="1339.5" y="813" fill="#ffffff">1</text>
+    </g>
+    <!-- kept features feed the subset -->
+    <path d="M1182,612 L1142,612 L1142,768" stroke="#15803d" stroke-width="3" fill="none" marker-end="url(#ahg)"/>
+  </g>
+
+  <!-- subset -> train -->
+  <path d="M1120,808 L1062,808 L1062,715 L1036,715" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ahs)"/>
+
+  <!-- ==================== STAGE 5 : TRAIN ==================== -->
+  <g id="stage-train">
+    <g filter="url(#sh)">
+      <rect x="802" y="626" width="232" height="178" rx="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2.5"/></g>
+    <text x="918" y="656" font-size="16" font-weight="bold" text-anchor="middle" fill="#0b2f7a">Train the model</text>
+    <g stroke="#1d4ed8" stroke-width="1.5" opacity="0.5">
+      <path d="M864,696 L918,678 M864,696 L918,708 M864,696 L918,738 M864,726 L918,678 M864,726 L918,708 M864,726 L918,738 M864,756 L918,678 M864,756 L918,708 M864,756 L918,738"/>
+      <path d="M918,678 L972,696 M918,678 L972,738 M918,708 L972,696 M918,708 L972,738 M918,738 L972,696 M918,738 L972,738"/>
+    </g>
+    <g fill="#2563eb"><circle cx="864" cy="696" r="9"/><circle cx="864" cy="726" r="9"/><circle cx="864" cy="756" r="9"/></g>
+    <g fill="#f59e0b"><circle cx="918" cy="678" r="9"/><circle cx="918" cy="708" r="9"/><circle cx="918" cy="738" r="9"/></g>
+    <g fill="#2563eb"><circle cx="972" cy="696" r="9"/><circle cx="972" cy="738" r="9"/></g>
+    <text x="918" y="790" font-size="13" text-anchor="middle" fill="#0b2f7a">fitting with selected features</text>
+  </g>
+  <path d="M802,715 L758,715" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== STAGE 6 : TEST ==================== -->
+  <g id="stage-test">
+    <g filter="url(#sh)">
+      <rect x="562" y="660" width="192" height="110" rx="12" fill="url(#gPurple)" stroke="#6b21a8" stroke-width="2.5"/></g>
+    <g transform="translate(602,706) scale(0.8)"><use xlink:href="#icoDoc"/></g>
+    <g transform="translate(628,730) scale(0.8)"><use xlink:href="#icoMag"/></g>
+    <text x="694" y="698" font-size="15" font-weight="bold" text-anchor="middle" fill="#3b0764">Test the</text>
+    <text x="694" y="718" font-size="15" font-weight="bold" text-anchor="middle" fill="#3b0764">trained model</text>
+    <text x="694" y="740" font-size="12" text-anchor="middle" fill="#3b0764">unseen test data</text>
+  </g>
+  <path d="M562,715 L498,715" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ==================== STAGE 7 : EVALUATION ==================== -->
+  <g id="stage-eval">
+    <rect x="60" y="568" width="452" height="300" rx="14" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="9 7"/>
+    <text x="286" y="894" font-size="19" font-weight="bold" text-anchor="middle" fill="#111111">Performance evaluation</text>
+
+    <g filter="url(#sh)">
+      <rect x="332" y="660" width="162" height="110" rx="12" fill="url(#gTeal)" stroke="#0f766e" stroke-width="2.5"/></g>
+    <g transform="translate(413,700) scale(0.9)"><use xlink:href="#icoGauge"/></g>
+    <text x="413" y="738" font-size="14" font-weight="bold" text-anchor="middle" fill="#064e47">Evaluate the model</text>
+    <text x="413" y="758" font-size="13" text-anchor="middle" fill="#064e47" font-family="Times New Roman, serif">check error E</text>
+
+    <g filter="url(#sh)">
+      <rect x="124" y="600" width="164" height="228" rx="12" fill="#ffffff" stroke="#334155" stroke-width="2.5"/></g>
+    <rect x="178" y="590" width="56" height="20" rx="6" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+    <g font-size="13.5" font-weight="bold" fill="#0f172a">
+      <g transform="translate(150,632) scale(0.55)"><use xlink:href="#icoCheck"/></g><text x="168" y="637">Accuracy</text>
+      <g transform="translate(150,668) scale(0.55)"><use xlink:href="#icoCheck"/></g><text x="168" y="673">Precision</text>
+      <g transform="translate(150,704) scale(0.55)"><use xlink:href="#icoCheck"/></g><text x="168" y="709">Recall</text>
+      <g transform="translate(150,740) scale(0.55)"><use xlink:href="#icoCheck"/></g><text x="168" y="745">F1-Score</text>
+      <g transform="translate(150,776) scale(0.55)"><use xlink:href="#icoCheck"/></g><text x="168" y="781">No. of features</text>
+    </g>
+    <text x="206" y="812" font-size="11.5" font-style="italic" text-anchor="middle" fill="#475569">fitness feedback to SPBO</text>
+    <path d="M332,715 L292,715" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- ==================== FEEDBACK LOOP ==================== -->
+  <g id="feedback">
+    <path d="M124,700 L18,700 L18,112 L457,112 L457,234"
+          stroke="#444444" stroke-width="3" fill="none" stroke-dasharray="10 7" marker-end="url(#ahd)"/>
+  </g>
+
+  <!-- ==================== TERMINATION ==================== -->
+  <g id="stop">
+    <path d="M457,362 L457,414" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#ah)"/>
+    <text x="476" y="392" font-size="14" font-weight="bold" fill="#b91c1c">No</text>
+    <g filter="url(#sh)">
+      <rect x="362" y="418" width="190" height="58" rx="29" fill="url(#gGray)" stroke="#334155" stroke-width="2.5"/></g>
+    <g transform="translate(392,447) scale(0.75)"><use xlink:href="#icoTrophy"/></g>
+    <text x="474" y="442" font-size="15" font-weight="bold" text-anchor="middle" fill="#0f172a">Stop &#8212; return</text>
+    <text x="474" y="462" font-size="15" font-weight="bold" text-anchor="middle" fill="#0f172a">best feature subset</text>
+  </g>
+
+</svg>

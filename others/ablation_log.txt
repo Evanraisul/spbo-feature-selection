@@ -1,0 +1,92 @@
+90 runs (18 configs x 5 seeds), N=80, T=15, 11 workers
+[1/90] A + eps-greedy only seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[2/90] A + eps-greedy only seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[3/90] A + eps-greedy only seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[4/90] A + eps-greedy only seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[5/90] A SPBO (baseline) seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[6/90] A SPBO (baseline) seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[7/90] A + eps-greedy only seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[8/90] A SPBO (baseline) seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[9/90] A + Levy only seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[10/90] A SPBO (baseline) seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[11/90] A SPBO (baseline) seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[12/90] A + Levy only seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[13/90] A + Levy only seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[14/90] A + Levy only seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[15/90] A eps-L-SPBO (full) seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[16/90] A eps-L-SPBO (full) seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[17/90] B eps = 0.00 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[18/90] A eps-L-SPBO (full) seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[19/90] A eps-L-SPBO (full) seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[20/90] A + Levy only seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[21/90] A eps-L-SPBO (full) seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[22/90] B eps = 0.00 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[23/90] B eps = 0.00 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[24/90] B eps = 0.05 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[25/90] B eps = 0.05 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[26/90] B eps = 0.00 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[27/90] B eps = 0.00 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[28/90] B eps = 0.10 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[29/90] B eps = 0.05 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[30/90] B eps = 0.05 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[31/90] B eps = 0.10 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[32/90] B eps = 0.10 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[33/90] B eps = 0.05 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[34/90] B eps = 0.10 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[35/90] B eps = 0.10 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[36/90] B eps = 0.20 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[37/90] B eps = 0.20 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[38/90] B eps = 0.20 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[39/90] B eps = 0.20 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[40/90] B eps = 0.20 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[41/90] B eps = 0.30 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[42/90] B eps = 0.30 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[43/90] B eps = 0.30 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[44/90] B eps = 0.30 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[45/90] C beta = 1.0 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[46/90] C beta = 1.0 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[47/90] B eps = 0.30 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[48/90] C beta = 1.0 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[49/90] C beta = 1.0 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[50/90] C beta = 1.2 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[51/90] C beta = 1.2 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[52/90] C beta = 1.2 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[53/90] C beta = 1.2 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[54/90] C beta = 1.0 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[55/90] C beta = 1.2 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[56/90] C beta = 1.5 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[57/90] C beta = 1.5 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[58/90] C beta = 1.5 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[59/90] C beta = 1.5 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[60/90] C beta = 1.5 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[61/90] C beta = 1.8 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[62/90] C beta = 1.8 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[63/90] C beta = 1.8 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[64/90] C beta = 1.8 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[65/90] D P_th = 0.0 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[66/90] C beta = 1.8 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[67/90] D P_th = 0.0 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[68/90] D P_th = 0.0 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[69/90] D P_th = 0.3 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[70/90] D P_th = 0.0 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[71/90] D P_th = 0.0 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[72/90] D P_th = 0.3 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[73/90] D P_th = 0.3 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[74/90] D P_th = 0.3 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[75/90] D P_th = 0.3 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[76/90] D P_th = 0.6 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[77/90] D P_th = 0.6 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[78/90] D P_th = 0.6 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[79/90] D P_th = 0.6 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[80/90] D P_th = 0.9 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[81/90] D P_th = 0.6 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[82/90] D P_th = 0.9 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[83/90] D P_th = 0.9 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[84/90] D P_th = 0.9 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[85/90] D P_th = 1.0 seed=52 fit=0.00925 nf=19 acc=99.53 it=9
+[86/90] D P_th = 0.9 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+[87/90] D P_th = 1.0 seed=42 fit=0.01314 nf=16 acc=99.00 it=10
+[88/90] D P_th = 1.0 seed=62 fit=0.00859 nf=19 acc=99.53 it=13
+[89/90] D P_th = 1.0 seed=72 fit=0.00630 nf=15 acc=99.60 it=11
+[90/90] D P_th = 1.0 seed=82 fit=0.00564 nf=15 acc=99.60 it=7
+wrote ablation_results.csv

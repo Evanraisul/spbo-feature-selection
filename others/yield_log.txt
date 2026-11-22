@@ -1,0 +1,22 @@
+28242 rows, 6 candidate features, 10 classes (Item)
+seed=42 nf=4/6 acc=88.72% (all-features 81.54%) fit=0.12199 442s
+   selected: Area, Year, hg/ha_yield, average_rain_fall_mm_per_year
+seed=52 nf=4/6 acc=89.17% (all-features 82.59%) fit=0.11661 483s
+   selected: Area, Year, hg/ha_yield, average_rain_fall_mm_per_year
+seed=62 nf=4/6 acc=88.59% (all-features 82.20%) fit=0.12327 472s
+   selected: Area, Year, hg/ha_yield, average_rain_fall_mm_per_year
+seed=72 nf=4/6 acc=90.02% (all-features 82.49%) fit=0.11171 418s
+   selected: Area, Year, hg/ha_yield, average_rain_fall_mm_per_year
+seed=82 nf=4/6 acc=89.56% (all-features 82.64%) fit=0.11580 474s
+   selected: Area, Year, hg/ha_yield, average_rain_fall_mm_per_year
+
+mean: nf=4.0  acc=89.21% +/- 0.59  (all-features 82.29%)
+
+selection frequency across seeds:
+  5/5  Area
+  5/5  Year
+  5/5  hg/ha_yield
+  5/5  average_rain_fall_mm_per_year
+  0/5  pesticides_tonnes
+  0/5  avg_temp
+wrote yield_results.csv

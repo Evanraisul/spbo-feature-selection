@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1660" height="560" viewBox="0 0 1660 560"
+     font-family="Arial, Helvetica, sans-serif"
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <marker id="ah" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111111"/></marker>
+    <marker id="ahs" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#52514e"/></marker>
+
+    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef4fd"/><stop offset="100%" stop-color="#cbdff7"/></linearGradient>
+    <linearGradient id="gOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef2ec"/><stop offset="100%" stop-color="#fbd9c7"/></linearGradient>
+    <linearGradient id="gAqua" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eafaf4"/><stop offset="100%" stop-color="#c2eede"/></linearGradient>
+    <linearGradient id="gViolet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1effb"/><stop offset="100%" stop-color="#d6d1f2"/></linearGradient>
+    <linearGradient id="gCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a78d6"/><stop offset="55%" stop-color="#8fc0ee"/><stop offset="100%" stop-color="#1c5ba6"/></linearGradient>
+
+    <filter id="sh" x="-25%" y="-25%" width="160%" height="160%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.20"/></filter>
+
+    <g id="icoCsv">
+      <rect x="-16" y="-22" width="32" height="44" rx="4" fill="#ffffff" stroke="#123f75" stroke-width="2.2"/>
+      <path d="M-9,-10 h18 M-9,-2 h18 M-9,6 h18 M-9,14 h11" stroke="#8fc0ee" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <g id="icoBroom">
+      <path d="M8,-16 L-4,-2" stroke="#a03d12" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-4,-2 l-10,10 l8,8 l10,-10 z" fill="#fbd9c7" stroke="#a03d12" stroke-width="2.2"/>
+      <path d="M-12,8 l8,8 M-8,4 l8,8" stroke="#a03d12" stroke-width="1.6"/>
+    </g>
+    <g id="icoGrid">
+      <rect x="-18" y="-15" width="36" height="30" rx="3" fill="#ffffff" stroke="#2f2a63" stroke-width="2.2"/>
+      <path d="M-6,-15 v30 M6,-15 v30 M-18,-5 h36 M-18,5 h36" stroke="#2f2a63" stroke-width="1.4"/>
+    </g>
+    <g id="icoScale">
+      <path d="M-18,10 h36" stroke="#0a5c40" stroke-width="2.6" stroke-linecap="round"/>
+      <rect x="-16" y="-2" width="9" height="12" fill="#1baf7a" stroke="#0a5c40" stroke-width="1.8"/>
+      <rect x="-4" y="-10" width="9" height="20" fill="#1baf7a" stroke="#0a5c40" stroke-width="1.8"/>
+      <rect x="8" y="-16" width="9" height="26" fill="#1baf7a" stroke="#0a5c40" stroke-width="1.8"/>
+    </g>
+    <g id="icoSplit">
+      <path d="M-16,0 h10 M-6,0 l10,-10 M-6,0 l10,10" fill="none" stroke="#4a3aa7" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="-18" cy="0" r="4" fill="#4a3aa7"/>
+      <circle cx="7" cy="-12" r="4.5" fill="#ffffff" stroke="#4a3aa7" stroke-width="2.4"/>
+      <circle cx="7" cy="12" r="4.5" fill="#ffffff" stroke="#4a3aa7" stroke-width="2.4"/>
+    </g>
+  </defs>
+
+  <rect x="0" y="0" width="1660" height="560" fill="#ffffff"/>
+
+  <!-- ===================== STAGE 1 : RAW DATA ===================== -->
+  <g id="s1">
+    <g filter="url(#sh)">
+      <rect x="30" y="40" width="270" height="360" rx="12" fill="url(#gBlue)" stroke="#1c5ba6" stroke-width="2.5"/></g>
+    <g transform="translate(74,104)">
+      <path d="M-22,-24 a22,9 0 0 1 44,0 v48 a22,9 0 0 1 -44,0 z" fill="url(#gCyl)" stroke="#123f75" stroke-width="2.2"/>
+      <ellipse cx="0" cy="-24" rx="22" ry="9" fill="#cfe2f7" stroke="#123f75" stroke-width="2.2"/>
+      <path d="M-22,-8 a22,9 0 0 0 44,0 M-22,8 a22,9 0 0 0 44,0" fill="none" stroke="#123f75" stroke-width="1.8"/>
+    </g>
+    <text x="114" y="82" font-size="16" font-weight="bold" fill="#123f75">NSL-KDD</text>
+    <text x="114" y="104" font-size="13" fill="#123f75">refined KDDCup&#8217;99</text>
+    <text x="114" y="126" font-size="13" fill="#123f75">benchmark corpus</text>
+
+    <rect x="50" y="162" width="230" height="140" rx="8" fill="#ffffff" stroke="#1c5ba6" stroke-width="1.8"/>
+    <g font-size="13" fill="#123f75">
+      <text x="66" y="186" font-weight="bold">Raw corpus</text>
+      <text x="66" y="212">records</text><text x="264" y="212" text-anchor="end" font-weight="bold">148,517</text>
+      <text x="66" y="236">features (D)</text><text x="264" y="236" text-anchor="end" font-weight="bold">41</text>
+      <text x="66" y="260">classes</text><text x="264" y="260" text-anchor="end" font-weight="bold">40</text>
+      <text x="66" y="284">majority class</text><text x="264" y="284" text-anchor="end" font-weight="bold">51.9%</text>
+    </g>
+    <text x="165" y="330" font-size="12.5" text-anchor="middle" fill="#1c5ba6" font-style="italic">heavy class imbalance:</text>
+    <text x="165" y="350" font-size="12.5" text-anchor="middle" fill="#1c5ba6" font-style="italic">77,054 normal vs. 2 udpstorm</text>
+    <g>
+      <rect x="50" y="366" width="230" height="16" rx="8" fill="#ffffff" stroke="#1c5ba6" stroke-width="1.4"/>
+      <path d="M58,374 h112" stroke="#2a78d6" stroke-width="8" stroke-linecap="round"/>
+      <path d="M174,374 h67" stroke="#eb6834" stroke-width="8" stroke-linecap="round"/>
+      <path d="M245,374 h27" stroke="#8a8983" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+  <path d="M300,220 L346,220" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ===================== STAGE 2 : CLEANING ===================== -->
+  <g id="s2">
+    <g filter="url(#sh)">
+      <rect x="350" y="40" width="290" height="360" rx="12" fill="url(#gOrange)" stroke="#a03d12" stroke-width="2.5"/></g>
+    <g transform="translate(390,86)"><use xlink:href="#icoBroom"/></g>
+    <text x="420" y="80" font-size="16" font-weight="bold" fill="#a03d12">Data cleaning</text>
+    <text x="420" y="100" font-size="12.5" fill="#7a2f0e">duplicate and null handling</text>
+
+    <rect x="370" y="124" width="250" height="74" rx="8" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+    <text x="386" y="146" font-size="13.5" font-weight="bold" fill="#7a2f0e">Duplicate removal</text>
+    <text x="386" y="166" font-size="12" fill="#52514e">repeated flows bias the majority</text>
+    <text x="386" y="184" font-size="12" fill="#52514e">class and inflate reported accuracy</text>
+
+    <rect x="370" y="210" width="250" height="74" rx="8" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+    <text x="386" y="232" font-size="13.5" font-weight="bold" fill="#7a2f0e">Missing-value imputation</text>
+    <text x="386" y="252" font-size="12" fill="#52514e">nulls replaced by a value drawn</text>
+    <text x="386" y="270" font-size="12" fill="#52514e">from the observed column range</text>
+
+    <rect x="370" y="296" width="250" height="74" rx="8" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+    <text x="386" y="318" font-size="13.5" font-weight="bold" fill="#7a2f0e">Outlier &amp; range control</text>
+    <text x="386" y="338" font-size="12" fill="#52514e">values outside the accepted range</text>
+    <text x="386" y="356" font-size="12" fill="#52514e">are clipped to the column bounds</text>
+  </g>
+  <path d="M640,220 L686,220" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ===================== STAGE 3 : ENCODING + SCALING ===================== -->
+  <g id="s3">
+    <g filter="url(#sh)">
+      <rect x="690" y="40" width="440" height="360" rx="12" fill="url(#gAqua)" stroke="#0e7a55" stroke-width="2.5"/></g>
+    <g transform="translate(730,84) scale(0.85)"><use xlink:href="#icoGrid"/></g>
+    <text x="762" y="80" font-size="16" font-weight="bold" fill="#0a5c40">Transformation &amp; scaling</text>
+    <text x="762" y="100" font-size="12.5" fill="#0a5c40">numeric, comparable feature space</text>
+
+    <!-- one-hot illustration -->
+    <rect x="710" y="124" width="400" height="118" rx="8" fill="#ffffff" stroke="#0e7a55" stroke-width="1.8"/>
+    <text x="726" y="146" font-size="13.5" font-weight="bold" fill="#0a5c40">One-hot encoding of categorical fields</text>
+    <text x="726" y="166" font-size="12" fill="#52514e" font-family="Times New Roman, serif">protocol_type, service, flag &#8594; indicator columns</text>
+    <g font-size="11.5" text-anchor="middle">
+      <rect x="726" y="180" width="70" height="24" rx="5" fill="#eafaf4" stroke="#0e7a55" stroke-width="1.6"/>
+      <text x="761" y="196" fill="#0a5c40">tcp</text>
+      <rect x="726" y="208" width="70" height="24" rx="5" fill="#eafaf4" stroke="#0e7a55" stroke-width="1.6"/>
+      <text x="761" y="224" fill="#0a5c40">udp</text>
+      <path d="M802,210 L838,210" stroke="#52514e" stroke-width="2" marker-end="url(#ahs)"/>
+      <g font-weight="bold">
+        <rect x="848" y="180" width="26" height="24" rx="4" fill="#1baf7a" stroke="#0a5c40" stroke-width="1.5"/><text x="861" y="197" fill="#ffffff">1</text>
+        <rect x="878" y="180" width="26" height="24" rx="4" fill="#ffffff" stroke="#8a8983" stroke-width="1.5"/><text x="891" y="197" fill="#52514e">0</text>
+        <rect x="908" y="180" width="26" height="24" rx="4" fill="#ffffff" stroke="#8a8983" stroke-width="1.5"/><text x="921" y="197" fill="#52514e">0</text>
+        <rect x="848" y="208" width="26" height="24" rx="4" fill="#ffffff" stroke="#8a8983" stroke-width="1.5"/><text x="861" y="225" fill="#52514e">0</text>
+        <rect x="878" y="208" width="26" height="24" rx="4" fill="#1baf7a" stroke="#0a5c40" stroke-width="1.5"/><text x="891" y="225" fill="#ffffff">1</text>
+        <rect x="908" y="208" width="26" height="24" rx="4" fill="#ffffff" stroke="#8a8983" stroke-width="1.5"/><text x="921" y="225" fill="#52514e">0</text>
+      </g>
+      <text x="1030" y="198" font-size="12" fill="#52514e">one indicator column</text>
+      <text x="1030" y="216" font-size="12" fill="#52514e">per observed category</text>
+    </g>
+
+    <!-- normalization illustration -->
+    <rect x="710" y="256" width="400" height="126" rx="8" fill="#ffffff" stroke="#0e7a55" stroke-width="1.8"/>
+    <g transform="translate(742,300) scale(0.8)"><use xlink:href="#icoScale"/></g>
+    <text x="772" y="278" font-size="13.5" font-weight="bold" fill="#0a5c40">Min&#8211;max normalization, eq. (8)</text>
+    <text x="772" y="302" font-size="14" fill="#0b0b0b" font-family="Times New Roman, serif">X&#8242; = (X &#8722; X<tspan dy="4" font-size="10">min</tspan><tspan dy="-4">) / (X</tspan><tspan dy="4" font-size="10">max</tspan><tspan dy="-4"> &#8722; X</tspan><tspan dy="4" font-size="10">min</tspan><tspan dy="-4">)</tspan></text>
+    <text x="772" y="326" font-size="12" fill="#52514e">every column mapped onto a common [0, 1] range, so no</text>
+    <text x="772" y="344" font-size="12" fill="#52514e">wide-range attribute dominates the distance-based models</text>
+    <g>
+      <rect x="772" y="356" width="300" height="12" rx="6" fill="#eafaf4" stroke="#0e7a55" stroke-width="1.4"/>
+      <text x="772" y="380" font-size="11" fill="#52514e">0</text>
+      <text x="1072" y="380" font-size="11" text-anchor="end" fill="#52514e">1</text>
+    </g>
+  </g>
+  <path d="M1130,220 L1176,220" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ===================== STAGE 4 : SPLIT ===================== -->
+  <g id="s4">
+    <g filter="url(#sh)">
+      <rect x="1180" y="40" width="450" height="360" rx="12" fill="url(#gViolet)" stroke="#4a3aa7" stroke-width="2.5"/></g>
+    <g transform="translate(1220,84) scale(0.85)"><use xlink:href="#icoSplit"/></g>
+    <text x="1252" y="80" font-size="16" font-weight="bold" fill="#2f2a63">Stratified train / test split</text>
+    <text x="1252" y="100" font-size="12.5" fill="#2f2a63">class proportions preserved in both folds</text>
+
+    <rect x="1200" y="124" width="410" height="132" rx="8" fill="#ffffff" stroke="#4a3aa7" stroke-width="1.8"/>
+    <g>
+      <rect x="1220" y="150" width="240" height="34" rx="6" fill="#d6d1f2" stroke="#4a3aa7" stroke-width="1.6"/>
+      <text x="1340" y="172" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#2f2a63">Training fold</text>
+      <rect x="1476" y="150" width="114" height="34" rx="6" fill="#f1effb" stroke="#4a3aa7" stroke-width="1.6"/>
+      <text x="1533" y="172" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#2f2a63">Test fold</text>
+      <text x="1220" y="208" font-size="12" fill="#52514e">used by the wrapper to score each candidate</text>
+      <text x="1220" y="226" font-size="12" fill="#52514e">subset and to fit the final classifier</text>
+      <text x="1476" y="208" font-size="12" fill="#52514e">held out;</text>
+      <text x="1476" y="226" font-size="12" fill="#52514e">never seen</text>
+      <text x="1476" y="244" font-size="12" fill="#52514e">during search</text>
+    </g>
+
+    <rect x="1200" y="270" width="410" height="112" rx="8" fill="#ffffff" stroke="#4a3aa7" stroke-width="1.8"/>
+    <text x="1220" y="294" font-size="13.5" font-weight="bold" fill="#2f2a63">Prepared feature matrix</text>
+    <g font-size="12.5" fill="#52514e">
+      <text x="1220" y="320">all values numeric and bounded to [0, 1]</text>
+      <text x="1220" y="342">41 candidate features exposed to the wrapper</text>
+      <text x="1220" y="364">fitness of a subset = test error E and subset size</text>
+    </g>
+    <g>
+      <path d="M1590,300 l-10,10 l-6,-6" fill="none" stroke="#1baf7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1590,322 l-10,10 l-6,-6" fill="none" stroke="#1baf7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1590,344 l-10,10 l-6,-6" fill="none" stroke="#1baf7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- ===================== NUMBERED STAGE BAR ===================== -->
+  <g id="stagebar">
+    <rect x="30" y="444" width="1600" height="46" rx="10" fill="#fafaf8" stroke="#8a8983" stroke-width="1.6"/>
+    <path d="M320,444 v46 M670,444 v46 M1160,444 v46" stroke="#e3e2dd" stroke-width="1.6"/>
+    <g font-size="14.5" font-weight="bold" fill="#0b0b0b">
+      <circle cx="62" cy="467" r="14" fill="#2a78d6"/><text x="62" y="472" font-size="13" text-anchor="middle" fill="#ffffff">1</text>
+      <text x="86" y="472">Data acquisition</text>
+      <circle cx="352" cy="467" r="14" fill="#eb6834"/><text x="352" y="472" font-size="13" text-anchor="middle" fill="#ffffff">2</text>
+      <text x="376" y="472">Cleaning</text>
+      <circle cx="702" cy="467" r="14" fill="#1baf7a"/><text x="702" y="472" font-size="13" text-anchor="middle" fill="#ffffff">3</text>
+      <text x="726" y="472">Encoding &amp; normalization</text>
+      <circle cx="1192" cy="467" r="14" fill="#4a3aa7"/><text x="1192" y="472" font-size="13" text-anchor="middle" fill="#ffffff">4</text>
+      <text x="1216" y="472">Stratified split &#8594; input to the &#949;-L-SPBO wrapper</text>
+    </g>
+  </g>
+
+  <text x="30" y="528" font-size="12.5" fill="#8a8983">Counts are those reported for the NSL-KDD corpus used in this study (Table 3); the class bar under stage 1 is drawn to scale for normal, neptune and all remaining classes.</text>
+</svg>

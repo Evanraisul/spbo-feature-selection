@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1660" height="880" viewBox="0 0 1660 880"
+     font-family="Arial, Helvetica, sans-serif"
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <marker id="ah" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#111111"/></marker>
+    <marker id="ahd" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#52514e"/></marker>
+    <marker id="ahg" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#1baf7a"/></marker>
+    <marker id="ahr" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#c0392b"/></marker>
+
+    <linearGradient id="gBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef4fd"/><stop offset="100%" stop-color="#cbdff7"/></linearGradient>
+    <linearGradient id="gOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef2ec"/><stop offset="100%" stop-color="#fbd9c7"/></linearGradient>
+    <linearGradient id="gAqua" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eafaf4"/><stop offset="100%" stop-color="#c2eede"/></linearGradient>
+    <linearGradient id="gViolet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1effb"/><stop offset="100%" stop-color="#d6d1f2"/></linearGradient>
+    <linearGradient id="gGray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fafaf8"/><stop offset="100%" stop-color="#e6e5e0"/></linearGradient>
+    <linearGradient id="gCyl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a78d6"/><stop offset="55%" stop-color="#8fc0ee"/><stop offset="100%" stop-color="#1c5ba6"/></linearGradient>
+
+    <filter id="sh" x="-25%" y="-25%" width="160%" height="160%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.20"/></filter>
+
+    <g id="icoDb">
+      <path d="M-22,-24 a22,9 0 0 1 44,0 v48 a22,9 0 0 1 -44,0 z" fill="url(#gCyl)" stroke="#123f75" stroke-width="2.2"/>
+      <ellipse cx="0" cy="-24" rx="22" ry="9" fill="#cfe2f7" stroke="#123f75" stroke-width="2.2"/>
+      <path d="M-22,-8 a22,9 0 0 0 44,0 M-22,8 a22,9 0 0 0 44,0" fill="none" stroke="#123f75" stroke-width="1.8"/>
+    </g>
+    <g id="icoGears">
+      <circle cx="0" cy="0" r="11" fill="none" stroke="#a03d12" stroke-width="3"/>
+      <g stroke="#a03d12" stroke-width="3" stroke-linecap="round">
+        <path d="M0,-17 v5 M0,12 v5 M-17,0 h5 M12,0 h5 M-12,-12 l3.5,3.5 M8.5,8.5 l3.5,3.5 M12,-12 l-3.5,3.5 M-8.5,8.5 l-3.5,3.5"/></g>
+    </g>
+    <g id="icoStudent">
+      <circle cx="0" cy="-7" r="7" fill="#ffffff" stroke="#2f2a63" stroke-width="2.2"/>
+      <path d="M-11,11 a11,12 0 0 1 22,0 z" fill="#ffffff" stroke="#2f2a63" stroke-width="2.2"/>
+      <path d="M-12,-9 a12,9 0 0 1 24,0 l-4,-1 a8,6 0 0 0 -16,0 z" fill="#2f2a63"/>
+    </g>
+    <g id="icoTree">
+      <path d="M0,-18 v10 M0,-8 l-14,10 M0,-8 l14,10" stroke="#0e7a55" stroke-width="2.4" fill="none"/>
+      <circle cx="0" cy="-20" r="5" fill="#1baf7a" stroke="#0e7a55" stroke-width="2"/>
+      <circle cx="-14" cy="6" r="5" fill="#ffffff" stroke="#0e7a55" stroke-width="2"/>
+      <circle cx="14" cy="6" r="5" fill="#ffffff" stroke="#0e7a55" stroke-width="2"/>
+    </g>
+    <g id="icoGauge">
+      <path d="M-15,5 a15,15 0 0 1 30,0" fill="none" stroke="#0e7a55" stroke-width="3.6" stroke-linecap="round"/>
+      <path d="M-15,5 a15,15 0 0 1 7.5,-13" fill="none" stroke="#e34948" stroke-width="3.6" stroke-linecap="round"/>
+      <path d="M0,5 L7.5,-4.5" stroke="#0b0b0b" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="0" cy="5" r="2.8" fill="#0b0b0b"/>
+    </g>
+    <g id="icoBulb">
+      <path d="M0,-16 a12,12 0 0 1 7,21.5 v4.5 h-14 v-4.5 a12,12 0 0 1 7,-21.5 z" fill="#fdf0d5" stroke="#8a6410" stroke-width="2.2"/>
+      <path d="M-6,12 h12 M-5,17 h10" stroke="#8a6410" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <g id="icoCheck">
+      <circle cx="0" cy="0" r="10" fill="#1baf7a" stroke="#0e7a55" stroke-width="2"/>
+      <path d="M-4.5,0 l3,3.5 L5.5,-4" fill="none" stroke="#ffffff" stroke-width="2.8"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect x="0" y="0" width="1660" height="880" fill="#ffffff"/>
+
+  <!-- ============================ 1. DATA SOURCE ============================ -->
+  <g id="stage-data">
+    <g filter="url(#sh)">
+      <rect x="34" y="132" width="286" height="206" rx="12" fill="url(#gBlue)" stroke="#1c5ba6" stroke-width="2.5"/></g>
+    <g transform="translate(84,196)"><use xlink:href="#icoDb"/></g>
+    <text x="126" y="176" font-size="17" font-weight="bold" fill="#123f75">NSL-KDD dataset</text>
+    <text x="126" y="200" font-size="13.5" fill="#123f75">network intrusion benchmark</text>
+    <line x1="52" y1="248" x2="302" y2="248" stroke="#1c5ba6" stroke-width="1.4" opacity="0.5"/>
+    <g font-size="13.5" fill="#123f75">
+      <text x="56" y="272">148,517 records</text>
+      <text x="56" y="294">41 candidate features (D)</text>
+      <text x="56" y="316">40 traffic classes</text>
+    </g>
+    <text x="177" y="364" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">1 &#183; Data source</text>
+  </g>
+  <path d="M320,235 L372,235" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ============================ 2. PREPROCESSING ============================ -->
+  <g id="stage-prep">
+    <g filter="url(#sh)">
+      <rect x="376" y="100" width="300" height="270" rx="12" fill="url(#gOrange)" stroke="#a03d12" stroke-width="2.5"/></g>
+    <g transform="translate(410,134) scale(0.8)"><use xlink:href="#icoGears"/></g>
+    <text x="436" y="140" font-size="17" font-weight="bold" fill="#a03d12">Pre-processing</text>
+    <g>
+      <rect x="396" y="160" width="260" height="42" rx="7" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+      <text x="410" y="177" font-size="13.5" font-weight="bold" fill="#7a2f0e">Data cleaning</text>
+      <text x="410" y="194" font-size="12" fill="#7a2f0e">de-duplicate &#183; impute missing values</text>
+
+      <rect x="396" y="210" width="260" height="42" rx="7" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+      <text x="410" y="227" font-size="13.5" font-weight="bold" fill="#7a2f0e">Data transformation</text>
+      <text x="410" y="244" font-size="12" fill="#7a2f0e">one-hot encoding of categorical fields</text>
+
+      <rect x="396" y="260" width="260" height="42" rx="7" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+      <text x="410" y="277" font-size="13.5" font-weight="bold" fill="#7a2f0e">Normalization</text>
+      <text x="410" y="294" font-size="12" fill="#7a2f0e" font-family="Times New Roman, serif">min&#8211;max scaling to [0, 1], eq. (8)</text>
+
+      <rect x="396" y="310" width="260" height="42" rx="7" fill="#ffffff" stroke="#d98a63" stroke-width="1.8"/>
+      <text x="410" y="327" font-size="13.5" font-weight="bold" fill="#7a2f0e">Stratified train / test split</text>
+      <text x="410" y="344" font-size="12" fill="#7a2f0e">class balance preserved in both folds</text>
+    </g>
+    <text x="526" y="396" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">2 &#183; Data preparation</text>
+  </g>
+  <path d="M676,235 L726,235" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ============================ 3. e-L-SPBO ENGINE ============================ -->
+  <g id="stage-engine">
+    <rect x="732" y="56" width="892" height="404" rx="14" fill="none" stroke="#333333" stroke-width="2" stroke-dasharray="9 7"/>
+    <text x="1178" y="486" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">3 &#183; &#949;-L-SPBO feature selection (wrapper)</text>
+
+    <g filter="url(#sh)">
+      <rect x="756" y="76" width="844" height="38" rx="8" fill="url(#gGray)" stroke="#52514e" stroke-width="2.2"/></g>
+    <text x="1178" y="101" font-size="14.5" font-weight="bold" text-anchor="middle" fill="#0b0b0b">Initialize N students in [min, max] &#8594; evaluate fitness &#8594; rank &#8594; assign category</text>
+
+    <!-- four student categories -->
+    <g font-size="13" text-anchor="middle">
+      <g filter="url(#sh)"><rect x="756" y="128" width="200" height="74" rx="9" fill="url(#gAqua)" stroke="#0e7a55" stroke-width="2.2"/></g>
+      <g transform="translate(784,164) scale(0.82)"><use xlink:href="#icoStudent"/></g>
+      <text x="880" y="154" font-size="14" font-weight="bold" fill="#0a5c40">Best student</text>
+      <text x="880" y="174" font-size="12.5" fill="#0a5c40" font-family="Times New Roman, serif">update by eq. (1)</text>
+      <text x="880" y="192" font-size="11.5" fill="#0e7a55">self-study, local step</text>
+
+      <g filter="url(#sh)"><rect x="970" y="128" width="200" height="74" rx="9" fill="url(#gBlue)" stroke="#1c5ba6" stroke-width="2.2"/></g>
+      <g transform="translate(998,164) scale(0.82)"><use xlink:href="#icoStudent"/></g>
+      <text x="1094" y="154" font-size="14" font-weight="bold" fill="#123f75">Good student</text>
+      <text x="1094" y="174" font-size="12.5" fill="#123f75" font-family="Times New Roman, serif">update by eq. (2a / 2b)</text>
+      <text x="1094" y="192" font-size="11.5" fill="#1c5ba6">imitates the best</text>
+
+      <g filter="url(#sh)"><rect x="1184" y="128" width="200" height="74" rx="9" fill="url(#gOrange)" stroke="#a03d12" stroke-width="2.2"/></g>
+      <g transform="translate(1212,164) scale(0.82)"><use xlink:href="#icoStudent"/></g>
+      <text x="1308" y="154" font-size="14" font-weight="bold" fill="#7a2f0e">Average student</text>
+      <text x="1308" y="174" font-size="12.5" fill="#7a2f0e" font-family="Times New Roman, serif">update by eq. (3)</text>
+      <text x="1308" y="192" font-size="11.5" fill="#a03d12">moves to group mean</text>
+
+      <g filter="url(#sh)"><rect x="1398" y="128" width="202" height="74" rx="9" fill="url(#gViolet)" stroke="#4a3aa7" stroke-width="2.2"/></g>
+      <g transform="translate(1426,164) scale(0.82)"><use xlink:href="#icoStudent"/></g>
+      <text x="1523" y="154" font-size="14" font-weight="bold" fill="#2f2a63">Random student</text>
+      <text x="1523" y="174" font-size="12.5" fill="#2f2a63" font-family="Times New Roman, serif">update by eq. (4)</text>
+      <text x="1523" y="192" font-size="11.5" fill="#4a3aa7">uniform re-position</text>
+    </g>
+
+    <!-- epsilon-greedy gate : the first contribution -->
+    <g filter="url(#sh)">
+      <rect x="756" y="222" width="844" height="96" rx="10" fill="#ffffff" stroke="#4a3aa7" stroke-width="2.5"/></g>
+    <text x="772" y="245" font-size="14" font-weight="bold" fill="#4a3aa7">&#949;-greedy exploration control &#8212; draw rand ~ U(0,1), &#949; = 0.1</text>
+    <g>
+      <rect x="772" y="256" width="400" height="26" rx="6" fill="#eafaf4" stroke="#0e7a55" stroke-width="1.6"/>
+      <text x="784" y="274" font-size="12.5" font-weight="bold" fill="#0a5c40" font-family="Times New Roman, serif">rand &#8805; &#949;  &#8594;  exploit: categorised update, eq. (1)&#8211;(4)</text>
+      <rect x="772" y="288" width="400" height="26" rx="6" fill="#f1effb" stroke="#4a3aa7" stroke-width="1.6"/>
+      <text x="784" y="306" font-size="12.5" font-weight="bold" fill="#2f2a63" font-family="Times New Roman, serif">rand &lt; &#949;  &#8594;  explore: Xi + L&#233;vy(&#946;) long jump</text>
+    </g>
+    <!-- Levy flight contribution -->
+    <g>
+      <rect x="1190" y="254" width="394" height="60" rx="8" fill="#fafaf8" stroke="#8a8983" stroke-width="1.6" stroke-dasharray="6 4"/>
+      <text x="1204" y="274" font-size="13" font-weight="bold" fill="#2f2a63" font-family="Times New Roman, serif">L&#233;vy(&#946;) = A &#183; u / |v|<tspan dy="-6" font-size="10">1/&#946;</tspan><tspan dy="6">  (Mantegna)</tspan></text>
+      <text x="1204" y="298" font-size="12.5" fill="#52514e" font-family="Times New Roman, serif">u ~ N(0, &#963;<tspan dy="-4" font-size="9.5">2</tspan><tspan dy="4">), v ~ N(0,1), &#946; = 1.5, A = 1.0</tspan></text>
+      <path d="M1502,296 l8,-7 l-5,-8 l10,-3 l3,7 l6,-2 l-2,-9 l18,-7 l4,6"
+            fill="none" stroke="#4a3aa7" stroke-width="1.8" stroke-linejoin="round"/>
+      <g fill="#4a3aa7"><circle cx="1502" cy="296" r="2"/><circle cx="1544" cy="266" r="2"/></g>
+    </g>
+
+    <!-- binary conversion -->
+    <g filter="url(#sh)">
+      <rect x="756" y="338" width="844" height="92" rx="10" fill="url(#gGray)" stroke="#52514e" stroke-width="2.5"/></g>
+    <text x="772" y="362" font-size="14" font-weight="bold" fill="#0b0b0b" font-family="Times New Roman, serif">Binary conversion &#8212; compare each dimension with threshold Th</text>
+    <g font-size="13">
+      <g transform="translate(786,392) scale(0.8)"><use xlink:href="#icoCheck"/></g>
+      <text x="806" y="397" font-size="13" font-weight="bold" fill="#0a5c40" font-family="Times New Roman, serif">Xi &#8805; Th &#8594; Xbin = 1, feature kept</text>
+      <circle cx="1094" cy="392" r="8" fill="#e34948"/>
+      <path d="M1090.5,388.5 L1097.5,395.5 M1097.5,388.5 L1090.5,395.5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="1110" y="397" font-size="13" font-weight="bold" fill="#8f2d2c" font-family="Times New Roman, serif">Xi &lt; Th &#8594; Xbin = 0, feature dropped</text>
+    </g>
+    <g font-size="12" font-weight="bold" text-anchor="middle">
+      <rect x="1400" y="378" width="22" height="26" rx="4" fill="#1baf7a" stroke="#0e7a55" stroke-width="1.6"/><text x="1411" y="396" fill="#ffffff">1</text>
+      <rect x="1426" y="378" width="22" height="26" rx="4" fill="#ffffff" stroke="#c0392b" stroke-width="1.6"/><text x="1437" y="396" fill="#c0392b">0</text>
+      <rect x="1452" y="378" width="22" height="26" rx="4" fill="#1baf7a" stroke="#0e7a55" stroke-width="1.6"/><text x="1463" y="396" fill="#ffffff">1</text>
+      <rect x="1478" y="378" width="22" height="26" rx="4" fill="#1baf7a" stroke="#0e7a55" stroke-width="1.6"/><text x="1489" y="396" fill="#ffffff">1</text>
+      <rect x="1504" y="378" width="22" height="26" rx="4" fill="#ffffff" stroke="#c0392b" stroke-width="1.6"/><text x="1515" y="396" fill="#c0392b">0</text>
+      <rect x="1530" y="378" width="22" height="26" rx="4" fill="#ffffff" stroke="#c0392b" stroke-width="1.6"/><text x="1541" y="396" fill="#c0392b">0</text>
+      <rect x="1556" y="378" width="22" height="26" rx="4" fill="#1baf7a" stroke="#0e7a55" stroke-width="1.6"/><text x="1567" y="396" fill="#ffffff">1</text>
+      <text x="1489" y="422" font-size="11" font-weight="normal" fill="#52514e">binary student vector</text>
+    </g>
+  </g>
+
+  <!-- engine -> selected subset -->
+  <path d="M790,460 L790,510 L186,510 L186,556" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ============================ 4. SELECTED SUBSET ============================ -->
+  <g id="stage-subset">
+    <g filter="url(#sh)">
+      <rect x="34" y="560" width="304" height="150" rx="12" fill="url(#gAqua)" stroke="#0e7a55" stroke-width="2.5"/></g>
+    <text x="186" y="592" font-size="16" font-weight="bold" text-anchor="middle" fill="#0a5c40">Selected feature subset</text>
+    <text x="186" y="616" font-size="13.5" text-anchor="middle" fill="#0a5c40">10 of 41 candidate features</text>
+    <g>
+      <rect x="58" y="632" width="256" height="30" rx="6" fill="#ffffff" stroke="#0e7a55" stroke-width="1.6"/>
+      <rect x="58" y="632" width="62" height="30" rx="6" fill="#1baf7a"/>
+      <text x="89" y="652" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#ffffff">24%</text>
+      <text x="220" y="652" font-size="12.5" text-anchor="middle" fill="#0a5c40">76% of features discarded</text>
+    </g>
+    <text x="186" y="686" font-size="12.5" text-anchor="middle" fill="#0e7a55" font-style="italic">smaller input, faster inference</text>
+    <text x="186" y="740" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">4 &#183; Feature subset</text>
+  </g>
+  <path d="M338,635 L392,635" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ============================ 5. CLASSIFIERS ============================ -->
+  <g id="stage-models">
+    <g filter="url(#sh)">
+      <rect x="396" y="540" width="304" height="170" rx="12" fill="#ffffff" stroke="#1c5ba6" stroke-width="2.5"/></g>
+    <g transform="translate(428,572) scale(0.8)"><use xlink:href="#icoTree"/></g>
+    <text x="456" y="578" font-size="16" font-weight="bold" fill="#123f75">Train &amp; test classifiers</text>
+    <g font-size="13" text-anchor="middle">
+      <rect x="416" y="600" width="60" height="28" rx="6" fill="#eef4fd" stroke="#1c5ba6" stroke-width="1.6"/><text x="446" y="619" fill="#123f75">SVM</text>
+      <rect x="484" y="600" width="60" height="28" rx="6" fill="#eef4fd" stroke="#1c5ba6" stroke-width="1.6"/><text x="514" y="619" fill="#123f75">LR</text>
+      <rect x="552" y="600" width="60" height="28" rx="6" fill="#eef4fd" stroke="#1c5ba6" stroke-width="1.6"/><text x="582" y="619" fill="#123f75">KNN</text>
+      <rect x="620" y="600" width="60" height="28" rx="6" fill="#eef4fd" stroke="#1c5ba6" stroke-width="1.6"/><text x="650" y="619" fill="#123f75">DT</text>
+      <rect x="416" y="636" width="264" height="30" rx="6" fill="#1baf7a" stroke="#0e7a55" stroke-width="1.8"/>
+      <text x="548" y="656" font-size="13.5" font-weight="bold" fill="#ffffff">Random Forest &#8212; best, 99.91% accuracy</text>
+    </g>
+    <text x="548" y="688" font-size="12.5" text-anchor="middle" fill="#52514e">fit on train fold, score on unseen test fold</text>
+    <text x="548" y="740" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">5 &#183; Classification</text>
+  </g>
+  <path d="M700,635 L754,635" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ============================ 6. EVALUATION ============================ -->
+  <g id="stage-eval">
+    <g filter="url(#sh)">
+      <rect x="758" y="540" width="292" height="170" rx="12" fill="url(#gAqua)" stroke="#0e7a55" stroke-width="2.5"/></g>
+    <g transform="translate(790,574) scale(0.85)"><use xlink:href="#icoGauge"/></g>
+    <text x="818" y="578" font-size="16" font-weight="bold" fill="#0a5c40">Evaluate performance</text>
+    <g font-size="13" fill="#0a5c40">
+      <text x="778" y="612">Accuracy</text><text x="778" y="634">Precision</text><text x="778" y="656">Recall</text>
+      <text x="912" y="612">F1-score</text><text x="912" y="634">Weighted avg.</text>
+      <text x="912" y="656" font-family="Times New Roman, serif">error E</text>
+    </g>
+    <line x1="776" y1="668" x2="1032" y2="668" stroke="#0e7a55" stroke-width="1.4" opacity="0.5"/>
+    <text x="904" y="690" font-size="12.5" text-anchor="middle" fill="#0e7a55" font-style="italic">E and subset size form the fitness value</text>
+    <text x="904" y="740" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">6 &#183; Evaluation</text>
+  </g>
+  <path d="M1050,635 L1104,635" stroke="#111111" stroke-width="3.5" fill="none" marker-end="url(#ah)"/>
+
+  <!-- ============================ 7. XAI ============================ -->
+  <g id="stage-xai">
+    <g filter="url(#sh)">
+      <rect x="1108" y="540" width="516" height="170" rx="12" fill="url(#gViolet)" stroke="#4a3aa7" stroke-width="2.5"/></g>
+    <g transform="translate(1142,576) scale(0.82)"><use xlink:href="#icoBulb"/></g>
+    <text x="1170" y="578" font-size="16" font-weight="bold" fill="#2f2a63">Explainability (XAI)</text>
+    <g>
+      <rect x="1128" y="596" width="238" height="96" rx="8" fill="#ffffff" stroke="#4a3aa7" stroke-width="1.8"/>
+      <text x="1142" y="616" font-size="13.5" font-weight="bold" fill="#2f2a63">SHAP</text>
+      <text x="1142" y="634" font-size="12" fill="#52514e">global attribution, top-20 features</text>
+      <g>
+        <rect x="1142" y="644" width="96" height="9" rx="4.5" fill="#2a78d6"/>
+        <rect x="1142" y="658" width="72" height="9" rx="4.5" fill="#2a78d6"/>
+        <rect x="1142" y="672" width="54" height="9" rx="4.5" fill="#2a78d6"/>
+        <rect x="1250" y="644" width="52" height="9" rx="4.5" fill="#eb6834"/>
+        <rect x="1250" y="658" width="38" height="9" rx="4.5" fill="#eb6834"/>
+        <rect x="1250" y="672" width="24" height="9" rx="4.5" fill="#eb6834"/>
+      </g>
+      <rect x="1378" y="596" width="232" height="96" rx="8" fill="#ffffff" stroke="#4a3aa7" stroke-width="1.8"/>
+      <text x="1392" y="616" font-size="13.5" font-weight="bold" fill="#2f2a63">LIME</text>
+      <text x="1392" y="634" font-size="12" fill="#52514e">local explanation of one prediction</text>
+      <g>
+        <path d="M1494,646 v42" stroke="#8a8983" stroke-width="1.4"/>
+        <rect x="1494" y="643" width="78" height="10" rx="5" fill="#1baf7a"/>
+        <rect x="1440" y="659" width="54" height="10" rx="5" fill="#e34948"/>
+        <rect x="1494" y="675" width="42" height="10" rx="5" fill="#1baf7a"/>
+      </g>
+    </g>
+    <text x="1366" y="740" font-size="17" font-weight="bold" text-anchor="middle" fill="#0b0b0b">7 &#183; Model explanation</text>
+  </g>
+
+  <!-- ============================ FITNESS FEEDBACK ============================ -->
+  <path d="M904,710 L904,846 L1646,846 L1646,300 L1628,300"
+        stroke="#52514e" stroke-width="3" fill="none" stroke-dasharray="10 7" marker-end="url(#ahd)"/>
+  <rect x="1090" y="831" width="340" height="30" rx="15" fill="#ffffff" stroke="#8a8983" stroke-width="1.4"/>
+  <text x="1260" y="851" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#52514e">fitness feedback &#8212; next iteration of the wrapper</text>
+</svg>
