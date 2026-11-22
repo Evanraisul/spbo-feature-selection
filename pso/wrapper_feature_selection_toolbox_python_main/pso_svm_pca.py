@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
-from FS.pso_svm import jfs   # change this to switch algorithm 
+from fs.pso_svm import jfs   # change this to switch algorithm
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
 from sklearn.decomposition import PCA
@@ -89,7 +89,7 @@ fig, ax = plt.subplots()
 ax.plot(x, curve, 'o-')
 ax.set_xlabel('Number of Iterations')
 ax.set_ylabel('Fitness')
-ax.set_title('PSO')
+ax.set_title('pso')
 ax.grid()
 plt.show()
 

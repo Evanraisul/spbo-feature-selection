@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
-from FS.pso_knn import jfs   # change this to switch algorithm 
+from fs.pso_svm import jfs   # change this to switch algorithm
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
 
@@ -16,6 +16,8 @@ SEED     = 42
 
 # load data
 data  = pd.read_csv(DATA_CSV)
+data= data[np.isfinite(data).all(1)]
+
 data  = data.values
 feat  = np.asarray(data[:, 0:41])
 label = np.asarray(data[:, 41])
@@ -25,16 +27,17 @@ label = np.asarray(data[:, 41])
 xtrain, xtest, ytrain, ytest = train_test_split(feat, label, test_size=0.3,
                                                 random_state=SEED)
 fold = {'xt':xtrain, 'yt':ytrain, 'xv':xtest, 'yv':ytest}
+#print(fold)
 
 # parameter
-k    = 5     # k-value in KNN
-N    = 100    # number of particles
-T    = 10   # maximum number of iterations
+#k    = 5     # k-value in KNN
+N    = 50  # number of particles
+T    = 10 # maximum number of iterations
 
 c1  = 2         # cognitive factor
 c2  = 2         # social factor 
 w   = 0.9       # inertia weight
-opts = {'k':k, 'fold':fold, 'N':N, 'T':T, 'w':w, 'c1':c1, 'c2':c2, 'seed':SEED}
+opts = {'fold':fold, 'N':N, 'T':T, 'w':w, 'c1':c1, 'c2':c2, 'seed':SEED}
 
 # perform feature selection
 fmdl = jfs(feat, label, opts)
@@ -48,7 +51,7 @@ y_train   = ytrain.reshape(num_train)  # Solve bug
 x_valid   = xtest[:, sf]
 y_valid   = ytest.reshape(num_valid)  # Solve bug
 
-mdl       = KNeighborsClassifier(n_neighbors = k) 
+mdl       = SVC()
 mdl.fit(x_train, y_train)
 
 # accuracy
@@ -76,7 +79,7 @@ fig, ax = plt.subplots()
 ax.plot(x, curve, 'o-')
 ax.set_xlabel('Number of Iterations')
 ax.set_ylabel('Fitness')
-ax.set_title('PSO')
+ax.set_title('pso')
 ax.grid()
 plt.show()
 

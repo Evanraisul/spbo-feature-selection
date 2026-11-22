@@ -20,7 +20,7 @@ from sklearn.metrics import accuracy_score
 
 
 # Single seed for the split, the classifier and the search, so the SPBO and
-# PSO runs are compared on exactly the same train/test partition.
+# pso runs are compared on exactly the same train/test partition.
 SEED = 42
 
 # load data
