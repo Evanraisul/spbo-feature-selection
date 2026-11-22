@@ -5,23 +5,37 @@ from sklearn.model_selection import train_test_split
 from fs.pso_svm import jfs   # change this to switch algorithm
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
+from sklearn.manifold import LocallyLinearEmbedding
 
 import os
 # Dataset path resolved from the repo layout instead of a hardcoded local
 # Windows path, and one shared seed so every run uses the same split.
-ROOT     = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_CSV = os.path.join(ROOT, 'datasets', 'Final.csv')
 SEED     = 42
 
 
 # load data
 data  = pd.read_csv(DATA_CSV)
-data= data[np.isfinite(data).all(1)]
-
 data  = data.values
+
 feat  = np.asarray(data[:, 0:41])
 label = np.asarray(data[:, 41])
 
+##########//////////////------------------------------------------------------------
+#LLTSA
+
+df  = pd.read_csv(DATA_CSV)
+
+X = df.drop("class", axis=1)
+
+lle = LocallyLinearEmbedding(n_components=30, n_neighbors=40, method='ltsa',
+                             random_state=SEED)
+X_lle = lle.fit_transform(X)
+#print(X_lle)
+feat=np.asarray(X_lle)
+
+###########-------------------------------------------------------------------------
 
 # split data into train & validation (70 -- 30)
 xtrain, xtest, ytrain, ytest = train_test_split(feat, label, test_size=0.3,
@@ -31,8 +45,8 @@ fold = {'xt':xtrain, 'yt':ytrain, 'xv':xtest, 'yv':ytest}
 
 # parameter
 #k    = 5     # k-value in KNN
-N    = 50  # number of particles
-T    = 10 # maximum number of iterations
+N    = 100    # number of particles
+T    = 50   # maximum number of iterations
 
 c1  = 2         # cognitive factor
 c2  = 2         # social factor 

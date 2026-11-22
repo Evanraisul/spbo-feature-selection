@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.random import rand
-from FS.functionHO_SVM import Fun
+from fs.functionHO_SVM import Fun
 
 
 def init_position(lb, ub, N, dim):

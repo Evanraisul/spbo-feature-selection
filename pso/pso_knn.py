@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report
 import os
 # Dataset path resolved from the repo layout instead of a hardcoded local
 # Windows path, and one shared seed so every run uses the same split.
-ROOT     = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+ROOT     = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_CSV = os.path.join(ROOT, 'datasets', 'Final.csv')
 SEED     = 42
 
